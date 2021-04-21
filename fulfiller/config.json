@@ -1,0 +1,7 @@
+{
+    "css": "variables.css",
+    "languages": {
+        "en": "languages/en.json",
+        "fr": "languages/fr.json"
+    }
+}
