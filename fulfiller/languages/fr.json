@@ -173,7 +173,7 @@
     },
     "GRIDHEADER":{
       "fulfillmentType": "L'Accomplissement De Type",
-      "exceptedDeliveryDate": "Date de livraison exclue",
+      "exceptedDeliveryDate": "Fecha de Entrega Estimada",
       "deliveryNotes": "Bons de livraison"
     },
     "AddNote": {
@@ -492,6 +492,17 @@
     },
     "Inventory" : {
       "inventoryLocationAPIFailure": "Impossible d'extraire la quantité à partir de l'emplacement pour {{0}}"
+    },
+    "CustomWorkflow" : {
+      "transmittedToSAP": "Transmis à SAP",
+      "shipped": "Expédié",
+      "received": "Reçue",
+      "Buttons": {
+        "done": "Finie",
+        "skip": "Sauter",
+        "back": "Dos",
+        "proceed": "Procéder"
+      }
     }
   },
   "SHIPTOHOME": {
@@ -1767,7 +1778,7 @@
     "PrintPickListFail": "Impossible de terminer l'impression de la liste de sélection avec succès",
     "ValidateStockSuccess": "Stock validé avec succès",
     "ValidateStockFail": "Impossible de valider le stock avec succès",
-    "TransferShipmentSuccess": "Envoi transféré avec succès",
+    "TransferShipmentSuccess": "Envío transferido con éxito",
     "TransferShipmentFail": "Impossible de transférer l'envoi avec succès",
     "CompleteShipmentSuccess": "Expédition terminée avec succès",
     "CompleteShipmentFail": "Impossible de terminer l'expédition avec succès",
@@ -1807,7 +1818,8 @@
     "PrepareForDeliverySuccess": "Préparation réussie pour la livraison",
     "PrepareForDeliveryFail": "Impossible de terminer la préparation de la livraison",
     "UpdateDeliveryDateSuccess": "La date de livraison prévue a bien été mise à jour",
-    "UpdatedDeliveryDateFailure": "Impossible de mettre à jour la date de livraison prévue"
+    "UpdatedDeliveryDateFailure": "Impossible de mettre à jour la date de livraison prévue",
+    "UnableToPerformAction": "Impossible d'effectuer l'action"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{

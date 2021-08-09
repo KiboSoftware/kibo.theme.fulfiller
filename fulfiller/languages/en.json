@@ -173,7 +173,7 @@
     },
     "GRIDHEADER":{
       "fulfillmentType": "Fulfillment Type",
-      "exceptedDeliveryDate": "Excepted Delivery Date",
+      "exceptedDeliveryDate": "Expected Delivery Date",
       "deliveryNotes": "Delivery Notes"
     },
     "AddNote": {
@@ -492,6 +492,17 @@
     },
     "Inventory" : {
       "inventoryLocationAPIFailure": "Unable to fetch Quantity from location for {{0}}"
+    },
+    "CustomWorkflow" : {
+      "transmittedToSAP": "Transmitted to SAP",
+      "shipped": "Shipped",
+      "received": "Received",
+      "Buttons": {
+        "done": "Done",
+        "skip": "Skip",
+        "back": "Back",
+        "proceed": "Proceed"
+      }
     }
   },
   "SHIPTOHOME": {
@@ -1765,7 +1776,7 @@
     "PrintPickListFail": "Unable to Complete Print Pick List Successfully",
     "ValidateStockSuccess": "Stock Successfully Validated",
     "ValidateStockFail": "Unable to Validate Stock Successfully",
-    "TransferShipmentSuccess": "Shipment Successfully Transfered",
+    "TransferShipmentSuccess": "Shipment Successfully Transferred",
     "TransferShipmentFail": "Unable to Transfer Shipment Successfully",
     "CompleteShipmentSuccess": "Shipment Successfully Completed",
     "CompleteShipmentFail": "Unable to Complete Shipment Successfully",
@@ -1798,14 +1809,15 @@
     "WaitForPaymentConfirmationSuccess":"Wait For Payment Confirmation successful",
     "WaitForPaymentConfirmationFail":"Fail to perform the action",
     "ReturnToPrintPackingList": "Unable to return Print Packing list Step",
-    "CancelManualNotificationFailure": "Unauthorized or Access Denied to cancel manually generated labels",
+    "CancelManualNotificationFailure": "Unauthorized or Access Denied to cancel manually generated labels",
     "invalidOrderId": "Invalid order id is used to generate the documents",
     "PrepareForShipment": "Unable to complete prepare for shipment",
     "ReturnToPrepareForShipmentError": "Unable to return Preparation for Shipment Step",
     "PrepareForDeliverySuccess": "Successfully complete preparation for delivery",
     "PrepareForDeliveryFail": "Unable to complete preparation for delivery",
     "UpdateDeliveryDateSuccess": "Expected Delivery date has successfully updated",
-    "UpdatedDeliveryDateFailure": "Unable to Update Expected Delivery date"
+    "UpdatedDeliveryDateFailure": "Unable to Update Expected Delivery date",
+    "UnableToPerformAction": "Unable to perform action"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
