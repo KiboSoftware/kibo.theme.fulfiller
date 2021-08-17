@@ -174,7 +174,8 @@
     "GRIDHEADER":{
       "fulfillmentType": "L'Accomplissement De Type",
       "exceptedDeliveryDate": "Fecha de Entrega Estimada",
-      "deliveryNotes": "Bons de livraison"
+      "deliveryNotes": "Bons de livraison",
+      "expectedPickupDeliveryDate": "Date prévue de ramassage/livraison"
     },
     "AddNote": {
       "addNotebtn": "Ajouter une note",
@@ -275,7 +276,8 @@
         "SKU": "SKU",
         "UPC": "UPC"
       },
-      "defaultDashboardTab": "Late"
+      "defaultDashboardTab": "Late",
+      "displayReturnsSection": 1
     },
     "ToasterSummary": {
       "errorMessage": "Message d'erreur",
@@ -1123,6 +1125,7 @@
       "ItemsReadyForTheCustomer": "Avez-vous tous ces articles prêts pour le client?",
       "Button": {
         "readyForPickup": "Prêt pour le ramassage",
+        "proceed": "Procéder",
         "continue": "Continuer"
       },
       "StockValidatedSuccessMessage": "Validation réussie des stocks"
@@ -1661,6 +1664,7 @@
       "ItemsReadyForTheCustomer": "Avez-vous tous ces articles prêts pour le client?",
       "Button": {
         "readyForPickup": "Prêt pour le ramassage",
+        "proceed": "Procéder",
         "continue": "Continuer"
       },
       "StockValidatedSuccessMessage": "Validation réussie des stocks"
