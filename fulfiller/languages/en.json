@@ -278,7 +278,8 @@
         "UPC": "UPC"
       },
       "defaultDashboardTab": "Late",
-      "displayReturnsSection": 1
+      "displayReturnsSection": 1,
+      "displayExpectedDeliveryCalenderIcon": 1
     },
     "ToasterSummary": {
       "errorMessage": "Error Message",
@@ -1082,11 +1083,13 @@
         "warningIfQtyIsZeroThen": " the shipment can only be canceled",
         "failureEditPrice": "Fail to edit shipment item's price",
         "successEditPrice": "Successfully modified shipment item's price",
-        "successEditQuantity": "Successfully modified shipment item's quantity"
+        "successEditQuantity": "Successfully modified shipment item's quantity",
+        "wanrningIfQtyIsExceeding": "Tried to enter more than max item quantity"
       }
     },
     "ProvideToCustomerRemoveItem": {
       "itemsToRemove": "Items to Remove",
+      "orderUpdate": "Order Updates",
       "ProductGrid": {
         "image": "Image",
         "product": "Product",
@@ -1096,7 +1099,11 @@
         "color": "Color:",
         "size": "Size:",
         "packageSize": "Package size here",
-        "selectRemovalReason": "Select Removal Reason..."
+        "selectRemovalReason": "Select Removal Reason...",
+        "selectChangeReason": "Select Change Reason...",
+        "reasonForQuantityChange": "Reason for Quantity Change*",
+        "unitPriceChange": "Unit Price Change",
+        "reasonForPriceChange": "Reason for Unit Price Change*"
       },
       "Button": {
         "cancel": "Cancel",
