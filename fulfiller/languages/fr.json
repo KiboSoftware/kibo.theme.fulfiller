@@ -278,7 +278,8 @@
         "UPC": "UPC"
       },
       "defaultDashboardTab": "Late",
-      "displayReturnsSection": 1
+      "displayReturnsSection": 1,
+      "displayExpectedDeliveryCalenderIcon": 1
     },
     "ToasterSummary": {
       "errorMessage": "Message d'erreur",
@@ -1088,6 +1089,7 @@
     },
     "ProvideToCustomerRemoveItem": {
       "itemsToRemove": "Éléments à supprimer",
+      "orderUpdate": "Mises à jour des ordres",
       "ProductGrid": {
         "image": "Image",
         "product": "Produit",
@@ -1097,7 +1099,11 @@
         "color": "Couleur:",
         "size": "Taille:",
         "packageSize": "Taille du paquet ici",
-        "selectRemovalReason": "Sélectionnez le motif de suppression ..."
+        "selectRemovalReason": "Sélectionnez le motif de suppression ...",
+        "selectChangeReason": "Sélectionnez la raison du changement...",
+        "reasonForQuantityChange": "Raison du changement de quantité*",
+        "unitPriceChange": "Changement de prix unitaire",
+        "reasonForPriceChange": "Raison du changement de prix unitaire*"
       },
       "Button": {
         "cancel": "Annuler",
