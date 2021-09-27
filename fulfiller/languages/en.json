@@ -173,7 +173,7 @@
     },
     "GRIDHEADER":{
       "fulfillmentType": "Fulfillment Type",
-      "exceptedDeliveryDate": "Expected Delivery Date",
+      "expectedDeliveryDate": "Expected Delivery Date",
       "deliveryNotes": "Delivery Notes",
       "expectedPickupDeliveryDate": "Expected Pickup/Delivery Date"
     },
@@ -230,6 +230,7 @@
     },
     "TENANTSETTINGS": {
       "printLabelMessage": "Generating Labels for printing...",
+      "printLabelAsPDF": 0,
       "displayOrderNumber": 1,
       "displayExternalOrderId": 0,
       "displayOrderPreparation": 0,

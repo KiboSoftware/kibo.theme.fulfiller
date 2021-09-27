@@ -173,7 +173,7 @@
     },
     "GRIDHEADER":{
       "fulfillmentType": "L'Accomplissement De Type",
-      "exceptedDeliveryDate": "Fecha de Entrega Estimada",
+      "expectedDeliveryDate": "Date de livraison prévue",
       "deliveryNotes": "Bons de livraison",
       "expectedPickupDeliveryDate": "Date prévue de ramassage/livraison"
     },
@@ -207,9 +207,9 @@
       "partNo": "Numéro d'article",
       "SKU": "SKU",
       "UPC": "UPC",
-      "pricePaid": "Prix ​​unitaire",
-      "pricePerUnit": "Prix ​​par unité",
-      "totalPrice": "Prix ​​total",
+      "pricePaid": "Prix unitaire",
+      "pricePerUnit": "Prix par unité",
+      "totalPrice": "Prix total",
       "neededQty": "Qté nécessaire",
       "actualQty": "Quantité réelle",
       "locatorName": "Nom du localisateur",
@@ -230,6 +230,7 @@
     },
     "TENANTSETTINGS": {
       "printLabelMessage": "Génération d'étiquettes pour l'impression ...",
+      "printLabelAsPDF": 0,
       "displayOrderNumber": 1,
       "displayExternalOrderId": 0,
       "displayOrderPreparation": 0,
@@ -445,9 +446,9 @@
         "partNo": "Numéro d'article",
         "SKU": "SKU",
         "UPC": "UPC",
-        "pricePaid": "Prix ​​unitaire",
-        "pricePerUnit": "Prix ​​par unité",
-        "totalPrice": "Prix ​​total"
+        "pricePaid": "Prix unitaire",
+        "pricePerUnit": "Prix par unité",
+        "totalPrice": "Prix total"
       }
     },
     "CustomerInformation": {
@@ -985,7 +986,7 @@
         "UPC": "UPC",
         "SKU": "SKU",
         "quantity": "Quantité",
-        "pricePaid": "Prix ​​unitaire"
+        "pricePaid": "Prix unitaire"
       },
       "Button": {
         "yes": "Oui",
@@ -1042,8 +1043,8 @@
         "product": "Produit",
         "productIdentifiers": "Identificateurs de produit",
         "quantity": "Quantité",
-        "retailPrice": "Prix ​​en détail",
-        "unitPrice": "Prix ​​unitaire",
+        "retailPrice": "Prix en détail",
+        "unitPrice": "Prix unitaire",
         "subtotal": "Total",
         "imageNotAvailable": "Image non disponible",
         "color": "Image non disponible",
@@ -1059,7 +1060,7 @@
         "updatedTotal": "Total mis à jour",
         "discount": "Remise",
         "adjustment": "Ajustement",
-        "pricePaid": "Prix ​​unitaire",
+        "pricePaid": "Prix unitaire",
         "Placeholder": {
           "currentStockAmount": "Montant actuel du stock"
         }
@@ -1176,7 +1177,7 @@
       "itemIsOnReserveForOtherCustomer": "L'article est en réserve pour un autre client",
       "itemIsShopWornNotWebSaleable": "L'article est porté en magasin, non vendable sur le Web",
       "itemNotAvailable": "Objet non disponible",
-      "itemPriceToHigh": "Prix ​​de l'article trop élevé",
+      "itemPriceToHigh": "Prix de l'article trop élevé",
       "needToChangePaymentMethod": "Besoin de changer de méthode de paiement",
       "noInventory": "Pas d'inventaire",
       "onMannequinOrDisplay": "Sur mannequin ou présentoir",
@@ -1501,8 +1502,8 @@
         "product": "Produit",
         "productIdentifiers": "Identificateurs de produit",
         "quantity": "Quantité",
-        "retailPrice": "Prix ​​en détail",
-        "unitPrice": "Prix ​​unitaire",
+        "retailPrice": "Prix en détail",
+        "unitPrice": "Prix unitaire",
         "subtotal": "Total",
         "imageNotAvailable": "Image non disponible",
         "color": "Couleur:",
@@ -1516,7 +1517,7 @@
         "total": "Totale",
         "discount": "Remise",
         "adjustment": "Ajustement",
-        "pricePaid": "Prix ​​unitaire",
+        "pricePaid": "Prix unitaire",
         "Placeholder": {
           "currentStockAmount": "Montant actuel du stock"
         }
@@ -1586,7 +1587,7 @@
         "UPC": "UPC",
         "SKU": "SKU",
         "quantity": "Quantité",
-        "pricePaid": "Prix ​​unitaire",
+        "pricePaid": "Prix unitaire",
         "pricedPaid": "Prix Payé",
         "subtotal": "Sous-total",
         "discount": "Remise",
@@ -1715,7 +1716,7 @@
       "itemIsOnReserveForOtherCustomer": "L'article est en réserve pour un autre client",
       "itemIsShopWornNotWebSaleable": "L'article est porté en magasin, non vendable sur le Web",
       "itemNotAvailable": "Objet non disponible",
-      "itemPriceToHigh": "Prix ​​de l'article trop élevé",
+      "itemPriceToHigh": "Prix de l'article trop élevé",
       "needToChangePaymentMethod": "Besoin de changer de méthode de paiement",
       "noInventory": "Pas d'inventaire",
       "onMannequinOrDisplay": "Sur mannequin ou présentoir",
