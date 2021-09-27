@@ -251,7 +251,10 @@
         "cancelShipmentModalheader": "Annuler l'envoi",
         "cancelShipmentNotification": "En sélectionnant cette option, vous confirmez que le client souhaite annuler la commande. Sélectionnez cette option pour informer le client que la commande a été annulée et il doit informer le service client pour toute question.",
         "acceptShipmentModalheader": "Accepter l'expédition",
-        "acceptShipmentNotification": "En sélectionnant cette option, vous avez vérifié que le client a reçu l'intégralité de la commande. Sélectionnez cette option pour informer le client que le processus de commande est terminé et qu'aucune action supplémentaire n'est requise"
+        "acceptShipmentNotification": "En sélectionnant cette option, vous avez vérifié que le client a reçu l'intégralité de la commande. Sélectionnez cette option pour informer le client que le processus de commande est terminé et qu'aucune action supplémentaire n'est requise",
+        "afterPickingDeliveryOrder": "Après avoir récupéré la commande, placez les articles en boîte/sac dans la zone de livraison avec toutes les feuilles de prélèvement.",
+        "orderDeliveryContinue": "Cliquez sur continuer et suivez les instructions pour préparer la commande pour la livraison. Lorsque l'article est livré au client, retournez pour terminer l'étape Livrer au client.",
+        "readyForDeliveryInstructions": "Prêt pour les instructions de livraison"
       },
       "pickWaveDisplayFields" : {
         "department": {

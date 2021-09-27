@@ -251,7 +251,10 @@
         "cancelShipmentModalheader": "Cancel Shipment",
         "cancelShipmentNotification": "By selecting this you are confirming the customer wishes to cancel the order. Selecting this will notify the customer the order has been canceled and they should notify customer service with any questions",
         "acceptShipmentModalheader": "Accept Shipment",
-        "acceptShipmentNotification": "By selecting this you have verified the customer has received the entire order. Selecting this will notify the customer the order process has been completed and there are no more actions required"
+        "acceptShipmentNotification": "By selecting this you have verified the customer has received the entire order. Selecting this will notify the customer the order process has been completed and there are no more actions required",
+        "afterPickingDeliveryOrder": "After picking the order, place boxed/bagged items in the Delivery area with any pick sheets.",
+        "orderDeliveryContinue": "Click continue and follow the instructions to prepare the order for delivery. When the item is delivered to the customer, return to complete the Deliver to Customer step.",
+        "readyForDeliveryInstructions": "Ready for delivery instructions"
       },
       "pickWaveDisplayFields" : {
         "department": {
