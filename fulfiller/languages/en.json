@@ -225,7 +225,8 @@
         "usps": "USPS",
         "canadapost": "Canada Post",
         "purolator" : "Purolator",
-        "fedexcrossborder": "FedEx Cross Border"
+        "fedexcrossborder": "FedEx Cross Border",
+        "custom_BoxKnight": "BoxKnight"
       }
     },
     "TENANTSETTINGS": {
@@ -342,7 +343,7 @@
       "subtitle": "Prepare these assigned shipments"
     },
     "AddNote": {
-      "addNotebtn": "Add Note",
+      "addNotebtn": "Internal Order Notes",
       "submitNote": "Submit Note",
       "insertText": "Insert Note Here...",
       "newNote": "New Note"
@@ -472,7 +473,7 @@
       "noChangeMsg": "No Change Messages"
     },
     "OrderNotes": {
-      "title": "Order Notes",
+      "title": "Internal Order Notes",
       "dateAdded": "Date Added",
       "user": "User",
       "role": "Role",
@@ -538,7 +539,7 @@
       "orderComplete": "Shipment Complete",
       "haveYou": "Have you",
       "thank": "Thank You",
-      "addorderNote": "Add Order Note",
+      "addorderNote": "Internal Order Notes",
       "returnTOPnPList": "Return to Print Packing List",
       "returnToWFPC": "Return to Wait for Payment Confirmation",
       "completeShipment": "Yes, Complete Shipment",
@@ -554,7 +555,7 @@
       "shipmentDetails": "Shipment Details",
       "customerInformation": "Customer Information",
       "shipmentHistory": "Shipment History",
-      "orderNotes": "Order Notes"
+      "orderNotes": "Internal Order Notes"
     },
     "PrepareShipmentSTH": {
       "title": "Prepare for Shipment",
@@ -681,7 +682,7 @@
       "shipmentDetails": "Shipment Details",
       "customerInformation": "Customer Information",
       "shipmentHistory": "Shipment History",
-      "orderNotes": "Order Notes"
+      "orderNotes": "Internal Order Notes"
     },
     "TABS": {
       "Accept Shipment": "Accept Shipment",
@@ -715,7 +716,7 @@
       "orderComplete": "Shipment Complete",
       "haveYou": "Have you",
       "thank": "Thank You",
-      "addorderNote": "Add Order Note",
+      "addorderNote": "Internal Order Notes",
       "returnTOPnPList": "Return to Print Packing List",
       "completeShipment": "Yes",
       "reprintShippingLabel": "Reprint Shipping Label",
@@ -860,7 +861,7 @@
       "orderComplete": "Shipment Complete",
       "haveYou": "Have you",
       "thank": "Thank You",
-      "addorderNote": "Add Order Note",
+      "addorderNote": "Internal Order Notes",
       "returnTOPnPList": "Return to Print Packing List",
       "completeShipment": "Yes, Complete Shipment",
       "reprintShippingLabel": "Reprint Shipping Label",
@@ -875,7 +876,7 @@
       "shipmentDetails": "Shipment Details",
       "customerInformation": "Customer Information",
       "shipmentHistory": "Shipment History",
-      "orderNotes": "Order Notes",
+      "orderNotes": "Internal Order Notes",
       "selectLocationMessage": "Please select location to fulfill this shipment."
     },
     "PrepareShipmentSTH": {
@@ -1026,7 +1027,7 @@
         "shipmentDetails": "Shipment Details",
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
-        "orderNotes": "Order Notes"
+        "orderNotes": "Internal Order Notes"
       },
       "onPickWave": "On Pick Wave"
     },
@@ -1493,7 +1494,7 @@
         "shipmentDetails": "Shipment Details",
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
-        "orderNotes": "Order Notes"
+        "orderNotes": "Internal Order Notes"
       },
       "PickupInfoKeys": {
         "MethodofDelivery": "Method of Delivery",
@@ -1638,7 +1639,7 @@
         "shipmentDetails": "Shipment Details",
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
-        "orderNotes": "Order Notes"
+        "orderNotes": "Internal Order Notes"
       },
       "onPickWave": "On Pick Wave"
     },
