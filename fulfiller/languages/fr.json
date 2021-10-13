@@ -225,7 +225,8 @@
         "usps": "USPS",
         "canadapost": "Postes Canada",
         "purolator": "Purolator",
-        "fedexcrossborder": "FedEx transfrontalier"
+        "fedexcrossborder": "FedEx transfrontalier",
+        "custom_BoxKnight": "BoîteChevalier"
       }
     },
     "TENANTSETTINGS": {
@@ -342,7 +343,7 @@
       "subtitle": "Préparez ces envois assignés"
     },
     "AddNote": {
-      "addNotebtn": "Ajouter une note",
+      "addNotebtn": "Notes de commande interne",
       "submitNote": "Soumettre une note",
       "insertText": "Insérer une note ici ...",
       "newNote": "Nouvelle note"
@@ -472,7 +473,7 @@
       "noChangeMsg": "Aucun message de changement"
     },
     "OrderNotes": {
-      "title": "Notes d'ordre",
+      "title": "Notes de commande interne",
       "dateAdded": "date ajoutée",
       "user": "Utilisatrice",
       "role": "Rôle",
@@ -538,7 +539,7 @@
       "orderComplete": "Expédition terminée",
       "haveYou": "Avez-vous",
       "thank": "Merci",
-      "addorderNote": "Ajouter une note de commande",
+      "addorderNote": "Notes de commande interne",
       "returnTOPnPList": "Retour à la liste de colisage d'impression",
       "returnToWFPC": "Retourner pour attendre la confirmation du paiement",
       "completeShipment": "Oui, expédition complète",
@@ -554,7 +555,7 @@
       "shipmentDetails": "Détails de l'envoi",
       "customerInformation": "Informations client",
       "shipmentHistory": "Historique des expéditions",
-      "orderNotes": "Notes d'ordre"
+      "orderNotes": "Notes de commande interne"
     },
     "PrepareShipmentSTH": {
       "title": "Préparez-vous à l'expédition",
@@ -673,7 +674,7 @@
       "shipmentDetails": "Détails de l'envoi",
       "customerInformation": "Informations client",
       "shipmentHistory": "Historique des expéditions",
-      "orderNotes": "Notes d'ordre"
+      "orderNotes": "Notes de commande interne"
     },
     "TABS": {
       "Accept Shipment": "Accepter l'expédition",
@@ -707,7 +708,7 @@
       "orderComplete": "Expédition terminée",
       "haveYou": "Avez-vous",
       "thank": "Merci",
-      "addorderNote": "Ajouter une note de commande",
+      "addorderNote": "Notes de commande interne",
       "returnTOPnPList": "Retour à la liste de colisage d'impression",
       "completeShipment": "Oui",
       "reprintShippingLabel": "Réimprimer l'étiquette d'expédition",
@@ -852,7 +853,7 @@
       "orderComplete": "Expédition terminée",
       "haveYou": "Avez-vous",
       "thank": "Merci",
-      "addorderNote": "Ajouter une note de commande",
+      "addorderNote": "Notes de commande interne",
       "returnTOPnPList": "Retour à la liste de colisage d'impression",
       "completeShipment": "Oui, expédition complète",
       "reprintShippingLabel": "Réimprimer l'étiquette d'expédition",
@@ -867,7 +868,7 @@
       "shipmentDetails": "Détails de l'envoi",
       "customerInformation": "Informations client",
       "shipmentHistory": "Historique des expéditions",
-      "orderNotes": "Notes d'ordre",
+      "orderNotes": "Notes de commande interne",
       "selectLocationMessage": "Veuillez sélectionner l'emplacement pour effectuer cette expédition."
     },
     "WaitForPaymentSTH": {
@@ -1026,7 +1027,7 @@
         "shipmentDetails": "Détails de l'envoi",
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
-        "orderNotes": "Notes d'ordre"
+        "orderNotes": "Notes de commande interne"
       },
       "onPickWave": "Sur Pick Wave"
     },
@@ -1494,7 +1495,7 @@
         "shipmentDetails": "Détails de l'envoi",
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
-        "orderNotes": "Notes d'ordre"
+        "orderNotes": "Notes de commande interne"
       },
       "PickupInfoKeys": {
         "MethodofDelivery": "Mode de livraison",
@@ -1639,7 +1640,7 @@
         "shipmentDetails": "Détails de l'envoi",
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
-        "orderNotes": "Notes d'ordre"
+        "orderNotes": "Notes de commande interne"
       },
       "onPickWave": "Sur Pick Wave"
     },
