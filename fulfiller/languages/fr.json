@@ -237,6 +237,7 @@
       "displayOrderPreparation": 0,
       "isAirPrintEnabled": 0,
       "isItemUPCScanAllowed": 0,
+      "displayReturnStatus": 1,
       "ValidateStockQuantity": {
         "defaultZeroQuantity": 0,
         "defaultShipmentQuantity": 1,
