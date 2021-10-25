@@ -197,7 +197,8 @@
       "four": "4",
       "five": "5",
       "six": "6",
-      "onPickWave": "On Pick Wave"
+      "onPickWave": "On Pick Wave",
+      "paymentError": "(Payment Error)"
     },
     "ProductDetailsGrid": {
       "image": "Image",
@@ -284,7 +285,11 @@
       },
       "defaultDashboardTab": "Late",
       "displayReturnsSection": 1,
-      "displayExpectedDeliveryCalenderIcon": 1
+      "displayExpectedDeliveryCalenderIcon": 1,
+      "FulfillableShipmentFilter": {
+        "enabled": true,
+        "message": "Fulfillment disabled for shipments associated with orderNumber {{orderNumber}} due to payment issue."
+      }
     },
     "ToasterSummary": {
       "errorMessage": "Error Message",
