@@ -274,7 +274,7 @@
         }
       },
       "isAllowExcludeLocation": 1,
-      "returnPolicyLink": "https://www.acehardware.com/customer-service#mz-cs-top",
+      "returnPolicyLink": "https://kibocommerce.com",
       "ProductIdentifierLabels": {
         "productCode": "Code produit",
         "variationProductCode": "Code produit de variation",
@@ -1837,7 +1837,9 @@
     "PrepareForShipment": "Impossible de terminer la préparation de l'expédition",
     "ReturnToPrepareForShipmentError": "Impossible de retourner l'étape de préparation pour l'expédition",
     "PrepareForDeliverySuccess": "Préparation réussie pour la livraison",
+    "PrepareForPickupSuccess": "Compléter avec succès la préparation pour le ramassage",
     "PrepareForDeliveryFail": "Impossible de terminer la préparation de la livraison",
+    "PrepareForPickupFail": "Impossible de terminer la préparation pour le ramassage",
     "UpdateDeliveryDateSuccess": "La date de livraison prévue a bien été mise à jour",
     "UpdatedDeliveryDateFailure": "Impossible de mettre à jour la date de livraison prévue",
     "UnableToPerformAction": "Impossible d'effectuer l'action"

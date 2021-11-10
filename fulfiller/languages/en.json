@@ -274,7 +274,7 @@
         }
       },
       "isAllowExcludeLocation": 1,
-      "returnPolicyLink": "https://www.acehardware.com/customer-service#mz-cs-top",
+      "returnPolicyLink": "https://kibocommerce.com",
       "ProductIdentifierLabels": {
         "productCode": "Product Code",
         "variationProductCode": "Variation Product Code",
@@ -1325,7 +1325,8 @@
       "noStoresSelected": "No current stores selected.",
       "storeAssociationMising": "At least one store must be associated with user, user is not created",
       "optInTextError": "Please enter phone number to opt in for text notifications",
-      "optInEmailError": "Please enter email to opt in for email notifications"
+      "optInEmailError": "Please enter email to opt in for email notifications",
+      "fetchingRolesFailed": "Error occurred while loading user roles"
     }
   },
   "PICKANDPACK": {
@@ -1836,7 +1837,9 @@
     "PrepareForShipment": "Unable to complete prepare for shipment",
     "ReturnToPrepareForShipmentError": "Unable to return Preparation for Shipment Step",
     "PrepareForDeliverySuccess": "Successfully complete preparation for delivery",
+    "PrepareForPickupSuccess": "Successfully complete preparation for pickup",
     "PrepareForDeliveryFail": "Unable to complete preparation for delivery",
+    "PrepareForPickupFail": "Unable to complete preparation for pickup",
     "UpdateDeliveryDateSuccess": "Expected Delivery date has successfully updated",
     "UpdatedDeliveryDateFailure": "Unable to Update Expected Delivery date",
     "UnableToPerformAction": "Unable to perform action"
