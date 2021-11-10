@@ -1326,7 +1326,7 @@
       "storeAssociationMising": "At least one store must be associated with user, user is not created",
       "optInTextError": "Please enter phone number to opt in for text notifications",
       "optInEmailError": "Please enter email to opt in for email notifications",
-      "fetchingRolesFailed": "Error occured while loading user roles"
+      "fetchingRolesFailed": "Error occurred while loading user roles"
     }
   },
   "PICKANDPACK": {
