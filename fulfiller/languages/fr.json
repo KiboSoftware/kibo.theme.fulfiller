@@ -198,7 +198,8 @@
       "five": "5",
       "six": "6",
       "onPickWave": "Sur Pick Wave",
-      "paymentError": "(Erreur de paiement)"
+      "paymentError": "(Erreur de paiement)",
+      "pendingReview": "(En attendant l'examen)"
     },
     "ProductDetailsGrid": {
       "image": "Image",
@@ -371,7 +372,11 @@
           "shipmentLowTotal": "Expédition totale faible",
           "shipmentHighTotal": "Expédition totale élevée"
         },
-        "onPickWave": "Sur Pick Wave"
+        "onPickWave": "Sur Pick Wave",
+        "fulfillmentNote": {
+          "note": "Noter:",
+          "message": "Tous les envois surlignés en jaune avec des statuts contenant « En attente de révision » ne sont actuellement pas réalisables"
+        }
       },
       "GridHeader": {
         "placed": "Mis",
@@ -508,9 +513,9 @@
       "inventoryLocationAPIFailure": "Impossible d'extraire la quantité à partir de l'emplacement pour {{0}}"
     },
     "CustomWorkflow" : {
-      "transmittedToSAP": "Transmis à SAP",
-      "shipped": "Expédié",
-      "received": "Reçue",
+      "transmitToSAP": "Transmettre à SAP",
+      "ship": "Expédier",
+      "receive": "Recevoir",
       "Buttons": {
         "done": "Finie",
         "skip": "Sauter",
@@ -1874,7 +1879,10 @@
       "Completed": "TERMINÉ",
       "DeliveryPreparation": "Préparation de la livraison",
       "DeliveryToCustomer": "Livraison au client",
-      "OrderPreparation": "Préparation de la commande"
+      "OrderPreparation": "Préparation de la commande",
+      "TransmittoSAP": "Transmettre à SAP",
+      "Ship": "Expédier",
+      "Receive": "Recevoir"
     },
     "ShipmentStatus":{
       "READY": "PRÊT",
