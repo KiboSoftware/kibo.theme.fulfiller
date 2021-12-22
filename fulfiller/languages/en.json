@@ -198,7 +198,8 @@
       "five": "5",
       "six": "6",
       "onPickWave": "On Pick Wave",
-      "paymentError": "(Payment Error)"
+      "paymentError": "(Payment Error)",
+      "pendingReview": "(Pending Review)"
     },
     "ProductDetailsGrid": {
       "image": "Image",
@@ -371,7 +372,11 @@
           "shipmentLowTotal": "Shipment Total Low",
           "shipmentHighTotal": "Shipment Total High"
         },
-        "onPickWave": "On Pick Wave"
+        "onPickWave": "On Pick Wave",
+        "fulfillmentNote": {
+          "note": "Note:",
+          "message": "All shipments highlighted in yellow with statuses that contain 'Pending Review' are not currently fulfillable"
+        }
       },
       "GridHeader": {
         "placed": "Placed",
@@ -508,9 +513,9 @@
       "inventoryLocationAPIFailure": "Unable to fetch Quantity from location for {{0}}"
     },
     "CustomWorkflow" : {
-      "transmittedToSAP": "Transmitted to SAP",
-      "shipped": "Shipped",
-      "received": "Received",
+      "transmitToSAP": "Transmit to SAP",
+      "ship": "Ship",
+      "receive": "Receive",
       "Buttons": {
         "done": "Done",
         "skip": "Skip",
@@ -1874,7 +1879,10 @@
       "COMPLETED": "COMPLETED",
       "DeliveryPreparation": "Delivery Preparation",
       "DeliveryToCustomer": "Delivery To Customer",
-      "OrderPreparation": "Order Preparation"
+      "OrderPreparation": "Order Preparation",
+      "TransmittoSAP": "Transmit to SAP",
+      "Ship": "Ship",
+      "Receive": "Receive"
     },
     "ShipmentStatus":{
       "READY": "READY",
