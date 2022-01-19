@@ -508,9 +508,9 @@
       "inventoryLocationAPIFailure": "Unable to fetch Quantity from location for {{0}}"
     },
     "CustomWorkflow" : {
-      "transmittedToSAP": "Transmitted to SAP",
-      "shipped": "Shipped",
-      "received": "Received",
+      "transmitToSAP": "Transmit to SAP",
+      "ship": "Ship",
+      "receive": "Receive",
       "Buttons": {
         "done": "Done",
         "skip": "Skip",
@@ -1874,7 +1874,10 @@
       "COMPLETED": "COMPLETED",
       "DeliveryPreparation": "Delivery Preparation",
       "DeliveryToCustomer": "Delivery To Customer",
-      "OrderPreparation": "Order Preparation"
+      "OrderPreparation": "Order Preparation",
+      "TransmittoSAP": "Transmit to SAP",
+      "Ship": "Ship",
+      "Receive": "Receive"
     },
     "ShipmentStatus":{
       "READY": "READY",
