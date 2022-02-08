@@ -215,7 +215,8 @@
       "neededQty": "Qté nécessaire",
       "actualQty": "Quantité réelle",
       "locatorName": "Nom du localisateur",
-      "binName": "Poubelle"
+      "binName": "Poubelle",
+      "choosePackingSlipNumber": "Choisissez le numéro du bordereau d'expédition"
     },
     "LOCALEFORMAT": {
       "dateFormat": "MM/dd/yyyy, h:mm:ss a z"
@@ -267,7 +268,8 @@
         },
         "locatorName": {
           "displayValue" : "Nom du localisateur",
-          "isDisplay": 0
+          "isDisplay": 0,
+          "enableSorting": 0
         },
         "binName": {
           "displayValue" : "Poubelle",
@@ -522,6 +524,13 @@
         "back": "Dos",
         "proceed": "Procéder"
       }
+    },
+    "PrintPackingSlip": {
+      "amountOfPackingSlip": "Amount of Packing Slips needed {{0}}",
+      "Buttons": {
+        "save": "Save",
+        "cancel": "Cancel"
+      }
     }
   },
   "SHIPTOHOME": {
@@ -555,6 +564,7 @@
       "returnToWFPC": "Retourner pour attendre la confirmation du paiement",
       "completeShipment": "Oui, expédition complète",
       "reprintShippingLabel": "Réimprimer l'étiquette d'expédition",
+      "reprintReturnLabel": "Réimprimer l'étiquette de retour",
       "removeTrackingNo": "Retirer",
       "toaster": {
         "errorPackageNotFound": "Le numéro de suivi ne figure dans aucun des packages"
@@ -570,6 +580,7 @@
     },
     "PrepareShipmentSTH": {
       "title": "Préparez-vous à l'expédition",
+      "tabHeader":"Bordereau d'expédition",
       "BODY": {
         "title": "Créer une étiquette d'expédition",
         "subtitle": "Lors de l'expédition de plusieurs boîtes, utilisez un formulaire pour chaque boîte",
@@ -598,7 +609,8 @@
         "emptyWeightError": "Le poids ne peut pas être vide",
         "invalidWeightError": "Le poids ne doit contenir que des chiffres",
         "emptytrackingNo": "Le numéro de suivi ne peut pas être vide",
-        "invalidtrackingNo": "Le numéro de suivi doit être alphanumérique"
+        "invalidtrackingNo": "Le numéro de suivi doit être alphanumérique",
+        "exceedsTrackingNo": "Le numéro de suivi ne doit pas dépasser 50 caractères"
       },
       "printShippingbtn": "Imprimer l'étiquette d'expédition",
       "printShippingLabel": "Veuillez ajouter les articles suivants avant d'imprimer une étiquette d'expédition: l'envoi n'a pas d'informations d'adresse de livraison.",
@@ -1847,7 +1859,11 @@
     "PrepareForPickupFail": "Impossible de terminer la préparation pour le ramassage",
     "UpdateDeliveryDateSuccess": "La date de livraison prévue a bien été mise à jour",
     "UpdatedDeliveryDateFailure": "Impossible de mettre à jour la date de livraison prévue",
-    "UnableToPerformAction": "Impossible d'effectuer l'action"
+    "UnableToPerformAction": "Impossible d'effectuer l'action",
+    "BulkPackageUpdateSuccess": "Le ou les numéros de bordereau d'expédition ont été mis à jour avec succès",
+    "UnableToBulkPackageAction": "Impossible de mettre à jour le numéro du bon de livraison",
+    "PackingSlipNumberNotAssignedCompletely": "Nous voyons que le nombre de bons de livraison fractionnés n'est pas complètement attribué",
+    "maximumPackingSlipError": "Vous avez atteint le nombre maximum de bons de livraison, veuillez mettre à jour les paramètres du groupe d'emplacements pour augmenter"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
