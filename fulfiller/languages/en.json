@@ -215,7 +215,8 @@
       "neededQty": "Needed QTY",
       "actualQty": "Actual QTY",
       "locatorName": "Locator Name",
-      "binName": "Bin"
+      "binName": "Bin",
+      "choosePackingSlipNumber": "Choose Packing Slip Number"
     },
     "LOCALEFORMAT": {
       "dateFormat": "MM/dd/yyyy, h:mm:ss a z"
@@ -267,7 +268,8 @@
         },
         "locatorName": {
           "displayValue" : "Locator Name",
-          "isDisplay": 0
+          "isDisplay": 0,
+          "enableSorting": 0
         },
         "binName": {
           "displayValue" : "Bin",
@@ -522,6 +524,13 @@
         "back": "Back",
         "proceed": "Proceed"
       }
+    },
+    "PrintPackingSlip": {
+      "amountOfPackingSlip": "Amount of Packing Slips needed {{0}}",
+      "Buttons": {
+        "save": "Save",
+        "cancel": "Cancel"
+      }
     }
   },
   "SHIPTOHOME": {
@@ -555,6 +564,7 @@
       "returnToWFPC": "Return to Wait for Payment Confirmation",
       "completeShipment": "Yes, Complete Shipment",
       "reprintShippingLabel": "Reprint Shipping Label",
+      "reprintReturnLabel": "Reprint Return Label",
       "removeTrackingNo": "Remove",
       "toaster": {
         "errorPackageNotFound": "Tracking number is not found in any packages"
@@ -570,6 +580,7 @@
     },
     "PrepareShipmentSTH": {
       "title": "Prepare for Shipment",
+      "tabHeader":"Packing Slip",
       "BODY": {
         "title": "Create a shipping label",
         "subtitle": "When shipping multiple boxes, use one form for each box",
@@ -598,7 +609,8 @@
         "emptyWeightError": "Weight cannot be blank",
         "invalidWeightError": "Weight must only contain numbers",
         "emptytrackingNo": "Tracking Number cannot be blank",
-        "invalidtrackingNo": "Tracking Number must be alphanumeric"
+        "invalidtrackingNo": "Tracking Number must be alphanumeric",
+        "exceedsTrackingNo": "Tracking Number must be 50 characters or less"
       },
       "printShippingbtn": "Print Shipping Label",
       "printShippingLabel": "Please add the follow item(s) before printing a shipping label: Shipment does not have a fulfillment address info.",
@@ -1847,7 +1859,11 @@
     "PrepareForPickupFail": "Unable to complete preparation for pickup",
     "UpdateDeliveryDateSuccess": "Expected Delivery date has successfully updated",
     "UpdatedDeliveryDateFailure": "Unable to Update Expected Delivery date",
-    "UnableToPerformAction": "Unable to perform action"
+    "UnableToPerformAction": "Unable to perform action",
+    "BulkPackageUpdateSuccess": "Packing slip number(s) has successfully updated",
+    "UnableToBulkPackageAction": "Unable to update the packing slip number",
+    "PackingSlipNumberNotAssignedCompletely": "We see that the number of packing slips split is not completely assigned",
+    "maximumPackingSlipError": "You've reached the maximum number of packing slips, please update Location Group settings to increase"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
