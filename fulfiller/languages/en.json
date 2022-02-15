@@ -1387,7 +1387,12 @@
       "advanced": "Advanced",
       "simple": "Simple",
       "noPickWavesFound": "No Pick Waves Found",
-      "orderPickSheets": "Order Pick Sheets"
+      "orderPickSheets": "Order Pick Sheets",
+      "pickwaveTypes": {
+        "Normal": "All Item Shipments (Includes Single And Multiple Item Shipments)",
+        "Single": "Single Item Shipments",
+        "Multiple": "Multiple Item Shipments"
+      }
     },
     "ErrorMessages": {
       "numberOfOrdersInvalidMinLength": "Number of Orders cannot be less than 1"
