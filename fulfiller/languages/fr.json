@@ -1387,7 +1387,12 @@
       "advanced": "Avancée",
       "simple": "Facile",
       "noPickWavesFound": "Aucune vague de sélection trouvée",
-      "orderPickSheets": "Commander des feuilles de prélèvement"
+      "orderPickSheets": "Commander des feuilles de prélèvement",
+      "pickwaveTypes": {
+        "Normal": "Tous les envois d'articles (comprend les envois d'articles uniques et multiples)",
+        "Single": "Expéditions d'articles uniques",
+        "Multiple": "Expéditions d'articles multiples"
+      }
     },
     "ErrorMessages": {
       "numberOfOrdersInvalidMinLength": "Le nombre de commandes ne peut pas être inférieur à 1"
