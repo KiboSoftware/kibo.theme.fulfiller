@@ -42,6 +42,10 @@
       "ItemScannedWithNoQuantity" : {
         "message": "Code scanné avec quantité nulle",
         "messageTitle": "Shipment item scanning"
+      },
+      "ShipmentHeaderEtagError": {
+        "message": "L'envoi a déjà été modifié ; veuillez revoir les modifications et réessayer.",
+        "messageTitle": "Erreur"
       }
     }
   },
@@ -292,7 +296,8 @@
       "FulfillableShipmentFilter": {
         "enabled": true,
         "message": "Exécution désactivée pour les envois associés à orderNumber {{orderNumber}} en raison d'un problème de paiement."
-      }
+      },
+      "hideEmptyShipmentsBuckets": 0
     },
     "ToasterSummary": {
       "errorMessage": "Message d'erreur",
@@ -342,7 +347,8 @@
       "shipmentNumber": "Numéro d'expédition",
       "store": "Boutique",
       "currentStep": "Étape actuelle",
-      "addNote": "Ajouter une note"
+      "addNote": "Ajouter une note",
+      "orderNote": "Bon de commande"
     },
     "ShipmentsGridEmptyMessages": {
       "noShipmentsFound": "Aucun envoi trouvé"
@@ -492,6 +498,13 @@
       "role": "Rôle",
       "note": "Remarque"
     },
+    "ShipmentNotes": {
+      "title": "Notes d'expédition internes",
+      "dateAdded": "Date D'Ajout",
+      "user": "L'utilisateur",
+      "role": "Rôle",
+      "note": "Note"
+    },
     "ViewWorkflow": {
       "viewWorkflowButton": "Affichage De Flux De Travail",
       "currentWorkflow": "Flux De Travail Actuel",
@@ -576,7 +589,8 @@
       "shipmentDetails": "Détails de l'envoi",
       "customerInformation": "Informations client",
       "shipmentHistory": "Historique des expéditions",
-      "orderNotes": "Notes de commande interne"
+      "orderNotes": "Notes de commande interne",
+      "shipmentNotes": "Notes d'expédition internes"
     },
     "PrepareShipmentSTH": {
       "title": "Préparez-vous à l'expédition",
@@ -697,7 +711,8 @@
       "shipmentDetails": "Détails de l'envoi",
       "customerInformation": "Informations client",
       "shipmentHistory": "Historique des expéditions",
-      "orderNotes": "Notes de commande interne"
+      "orderNotes": "Notes de commande interne",
+      "shipmentNotes": "Notes d'expédition internes"
     },
     "TABS": {
       "Accept Shipment": "Accepter l'expédition",
@@ -892,7 +907,8 @@
       "customerInformation": "Informations client",
       "shipmentHistory": "Historique des expéditions",
       "orderNotes": "Notes de commande interne",
-      "selectLocationMessage": "Veuillez sélectionner l'emplacement pour effectuer cette expédition."
+      "selectLocationMessage": "Veuillez sélectionner l'emplacement pour effectuer cette expédition.",
+      "shipmentNotes": "Notes d'expédition internes"
     },
     "WaitForPaymentSTH": {
       "title": "Attendez la confirmation du paiement",
@@ -1050,7 +1066,8 @@
         "shipmentDetails": "Détails de l'envoi",
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
-        "orderNotes": "Notes de commande interne"
+        "orderNotes": "Notes de commande interne",
+        "shipmentNotes": "Notes d'expédition internes"
       },
       "onPickWave": "Sur Pick Wave"
     },
@@ -1523,7 +1540,8 @@
         "shipmentDetails": "Détails de l'envoi",
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
-        "orderNotes": "Notes de commande interne"
+        "orderNotes": "Notes de commande interne",
+        "shipmentNotes": "Notes d'expédition internes"
       },
       "PickupInfoKeys": {
         "MethodofDelivery": "Mode de livraison",
@@ -1668,7 +1686,8 @@
         "shipmentDetails": "Détails de l'envoi",
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
-        "orderNotes": "Notes de commande interne"
+        "orderNotes": "Notes de commande interne",
+        "shipmentNotes": "Notes d'expédition internes"
       },
       "onPickWave": "Sur Pick Wave"
     },
