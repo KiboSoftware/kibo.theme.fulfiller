@@ -42,6 +42,10 @@
       "ItemScannedWithNoQuantity": {
         "message": "Scanned code with zero quantity",
         "messageTitle": "Shipment item scanning"
+      },
+      "ShipmentHeaderEtagError": {
+        "message": "The shipment has already been modified; please review changes and try again.",
+        "messageTitle": "Error"
       }
     }
   },
@@ -292,7 +296,8 @@
       "FulfillableShipmentFilter": {
         "enabled": true,
         "message": "Fulfillment disabled for shipments associated with orderNumber {{orderNumber}} due to payment issue."
-      }
+      },
+      "hideEmptyShipmentsBuckets": 0
     },
     "ToasterSummary": {
       "errorMessage": "Error Message",
@@ -342,7 +347,8 @@
       "shipmentNumber": "Shipment Number",
       "store": "Store",
       "currentStep": "Current Step",
-      "addNote": "Add Note"
+      "addNote": "Add Note",
+      "orderNote": "Order Note"
     },
     "ShipmentsGridEmptyMessages": {
       "noShipmentsFound": "No Shipments Found"
@@ -492,6 +498,13 @@
       "role": "Role",
       "note": "Note"
     },
+    "ShipmentNotes": {
+      "title": "Internal Shipment Notes",
+      "dateAdded": "Date Added",
+      "user": "User",
+      "role": "Role",
+      "note": "Note"
+    },
     "ViewWorkflow": {
       "viewWorkflowButton": "View Workflow",
       "currentWorkflow": "Current Workflow",
@@ -576,7 +589,8 @@
       "shipmentDetails": "Shipment Details",
       "customerInformation": "Customer Information",
       "shipmentHistory": "Shipment History",
-      "orderNotes": "Internal Order Notes"
+      "orderNotes": "Internal Order Notes",
+      "shipmentNotes": "Internal Shipment Notes"
     },
     "PrepareShipmentSTH": {
       "title": "Prepare for Shipment",
@@ -705,7 +719,8 @@
       "shipmentDetails": "Shipment Details",
       "customerInformation": "Customer Information",
       "shipmentHistory": "Shipment History",
-      "orderNotes": "Internal Order Notes"
+      "orderNotes": "Internal Order Notes",
+      "shipmentNotes": "Internal Shipment Notes"
     },
     "TABS": {
       "Accept Shipment": "Accept Shipment",
@@ -900,7 +915,8 @@
       "customerInformation": "Customer Information",
       "shipmentHistory": "Shipment History",
       "orderNotes": "Internal Order Notes",
-      "selectLocationMessage": "Please select location to fulfill this shipment."
+      "selectLocationMessage": "Please select location to fulfill this shipment.",
+      "shipmentNotes": "Internal Shipment Notes"
     },
     "PrepareShipmentSTH": {
       "title": "Prepare for Shipment",
@@ -1050,7 +1066,8 @@
         "shipmentDetails": "Shipment Details",
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
-        "orderNotes": "Internal Order Notes"
+        "orderNotes": "Internal Order Notes",
+        "shipmentNotes": "Internal Shipment Notes"
       },
       "onPickWave": "On Pick Wave"
     },
@@ -1523,7 +1540,8 @@
         "shipmentDetails": "Shipment Details",
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
-        "orderNotes": "Internal Order Notes"
+        "orderNotes": "Internal Order Notes",
+        "shipmentNotes": "Internal Shipment Notes"
       },
       "PickupInfoKeys": {
         "MethodofDelivery": "Method of Delivery",
@@ -1668,7 +1686,8 @@
         "shipmentDetails": "Shipment Details",
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
-        "orderNotes": "Internal Order Notes"
+        "orderNotes": "Internal Order Notes",
+        "shipmentNotes": "Internal Shipment Notes"
       },
       "onPickWave": "On Pick Wave"
     },
