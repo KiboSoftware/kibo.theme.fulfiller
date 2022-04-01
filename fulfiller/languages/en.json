@@ -515,7 +515,8 @@
     },
     "ReprintList": {
       "packingSlip": "Packing Slip",
-      "reprintPackingSlip": "Reprint Packing Slip"
+      "reprintPackingSlip": "Reprint Packing Slip",
+      "returnTrackingNumber": "Return Tracking Number"
     },
     "ItemIdentification": {
       "itemIdentificationTitle" : "Idetification Number",
@@ -535,7 +536,9 @@
         "done": "Done",
         "skip": "Skip",
         "back": "Back",
-        "proceed": "Proceed"
+        "proceed": "Proceed",
+        "revertStep": "Return to Previous Step",
+        "proceedToNextStep": "Proceed to Next Step"
       }
     },
     "PrintPackingSlip": {
@@ -1922,7 +1925,8 @@
       "OrderPreparation": "Order Preparation",
       "TransmittoSAP": "Transmit to SAP",
       "Ship": "Ship",
-      "Receive": "Receive"
+      "Receive": "Receive",
+      "OutforDelivery": "Out for Delivery"
     },
     "ShipmentStatus":{
       "READY": "READY",
@@ -1930,6 +1934,10 @@
       "FULFILLED": "FULFILLED",
       "CUSTOMER_CARE": "CUSTOMER-CARE",
       "CANCELED": "CANCELED"
+    },
+    "ButtonTextPrefix": {
+      "ProceedTo": "Proceed To",
+      "ReturnTo": "Return To"
     }
   }
 }
