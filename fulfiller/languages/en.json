@@ -233,7 +233,9 @@
         "canadapost": "Canada Post",
         "purolator" : "Purolator",
         "fedexcrossborder": "FedEx Cross Border",
-        "custom_BoxKnight": "BoxKnight"
+        "custom_BoxKnight": "BoxKnight",
+        "custom_Aramex": "Aramex",
+        "CUSTOM_DEV_ARAMEX": "Aramex"
       }
     },
     "TENANTSETTINGS": {
@@ -1247,6 +1249,7 @@
       "PartialPickup": {
         "itemsAvailable": "Items Available for Customer Pickup",
         "itemsReceived": "Items received",
+        "itemsAvailableToShip": "Items Available to Ship",
         "Button": {
           "pickup": "Pickup",
           "editPickupQty": "Edit Pickup Qty",
@@ -1890,7 +1893,9 @@
     "BulkPackageUpdateSuccess": "Packing slip number(s) has successfully updated",
     "UnableToBulkPackageAction": "Unable to update the packing slip number",
     "PackingSlipNumberNotAssignedCompletely": "We see that the number of packing slips split is not completely assigned",
-    "maximumPackingSlipError": "You've reached the maximum number of packing slips, please update Location Group settings to increase"
+    "maximumPackingSlipError": "You've reached the maximum number of packing slips, please update Location Group settings to increase",
+    "UnableToProceedNext": "Unable to Proceed to next step",
+    "UnableToRevert": "Unable to Revert the Step"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{

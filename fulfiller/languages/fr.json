@@ -233,7 +233,9 @@
         "canadapost": "Postes Canada",
         "purolator": "Purolator",
         "fedexcrossborder": "FedEx transfrontalier",
-        "custom_BoxKnight": "BoîteChevalier"
+        "custom_BoxKnight": "BoîteChevalier",
+        "custom_Aramex": "Aramex",
+        "CUSTOM_DEV_ARAMEX": "Aramex"
       }
     },
     "TENANTSETTINGS": {
@@ -1247,6 +1249,7 @@
       "PartialPickup": {
         "itemsAvailable": "Articles disponibles pour le ramassage du client",
         "itemsReceived": "Articles reçus",
+        "itemsAvailableToShip": "Articles disponibles à expédier",
         "Button": {
           "pickup": "Ramasser",
           "editPickupQty": "Modifier la quantité d'enlèvement",
@@ -1890,7 +1893,9 @@
     "BulkPackageUpdateSuccess": "Le ou les numéros de bordereau d'expédition ont été mis à jour avec succès",
     "UnableToBulkPackageAction": "Impossible de mettre à jour le numéro du bon de livraison",
     "PackingSlipNumberNotAssignedCompletely": "Nous voyons que le nombre de bons de livraison fractionnés n'est pas complètement attribué",
-    "maximumPackingSlipError": "Vous avez atteint le nombre maximum de bons de livraison, veuillez mettre à jour les paramètres du groupe d'emplacements pour augmenter"
+    "maximumPackingSlipError": "Vous avez atteint le nombre maximum de bons de livraison, veuillez mettre à jour les paramètres du groupe d'emplacements pour augmenter",
+    "UnableToProceedNext": "Impossible de passer à l'étape suivante",
+    "UnableToRevert": "Impossible d'annuler l'étape"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
