@@ -515,7 +515,8 @@
     },
     "ReprintList": {
       "packingSlip": "Bon de livraison",
-      "reprintPackingSlip": "Réimpression du bordereau d'emballage"
+      "reprintPackingSlip": "Réimpression du bordereau d'emballage",
+      "returnTrackingNumber": "Numéro de suivi de retour"
     },
     "ItemIdentification": {
       "itemIdentificationTitle" : "Numéro d'identification",
@@ -535,7 +536,9 @@
         "done": "Finie",
         "skip": "Sauter",
         "back": "Dos",
-        "proceed": "Procéder"
+        "proceed": "Procéder",
+        "revertStep": "Revenir à l'étape précédente",
+        "proceedToNextStep": "Passer à l'étape suivante"
       }
     },
     "PrintPackingSlip": {
@@ -1922,7 +1925,8 @@
       "OrderPreparation": "Préparation de la commande",
       "TransmittoSAP": "Transmettre à SAP",
       "Ship": "Expédier",
-      "Receive": "Recevoir"
+      "Receive": "Recevoir",
+      "OutforDelivery": "En cours de livraison"
     },
     "ShipmentStatus":{
       "READY": "PRÊT",
@@ -1930,6 +1934,10 @@
       "FULFILLED": "REMPLI",
       "CUSTOMER_CARE": "SERVICE CLIENTE",
       "CANCELED": "ANNULÉ"
+    },
+    "ButtonTextPrefix": {
+      "ProceedTo": "Procéder à",
+      "ReturnTo": "Retourner à"
     }
   }
 }
