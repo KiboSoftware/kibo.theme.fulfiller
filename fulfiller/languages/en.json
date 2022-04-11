@@ -244,6 +244,7 @@
       "displayOrderNumber": 1,
       "displayExternalOrderId": 0,
       "displayOrderPreparation": 0,
+      "customerReferencesSequence": 0,
       "isAirPrintEnabled": 0,
       "isItemUPCScanAllowed": 0,
       "displayReturnStatus": 1,
