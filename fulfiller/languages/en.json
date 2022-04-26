@@ -203,7 +203,8 @@
       "six": "6",
       "onPickWave": "On Pick Wave",
       "paymentError": "(Payment Error)",
-      "pendingReview": "(Pending Review)"
+      "pendingReview": "(Pending Review)",
+      "historicalImportShipmentHighlighterMessage": "Shipment for historical imported order"
     },
     "ProductDetailsGrid": {
       "image": "Image",
@@ -253,6 +254,7 @@
         "defaultShipmentQuantity": 1,
         "locationInventoryQuantity": 0
       },
+      "displayOrderRefNumber" : 0,
       "CustomMessages": {
         "readyForPickupInstructions": "Ready for pickup instructions",
         "afterPickingTheOrder": "After picking the order, place boxed or bagged items in the In Store Pick Up hold area; label larger items with a copy of the pick sheet.",
@@ -372,6 +374,7 @@
         "results": "Results",
         "shipmentNumber": "Shipment",
         "orderNumber": "Order",
+        "orderRefNumber": "Order Ref Number",
         "externalOrderId": "External Order",
         "status": "Status",
         "assignedTo": "Assigned to",

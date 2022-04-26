@@ -203,7 +203,8 @@
       "six": "6",
       "onPickWave": "Sur Pick Wave",
       "paymentError": "(Erreur de paiement)",
-      "pendingReview": "(En attendant l'examen)"
+      "pendingReview": "(En attendant l'examen)",
+      "historicalImportShipmentHighlighterMessage": "Expédition pour la commande importée historique"
     },
     "ProductDetailsGrid": {
       "image": "Image",
@@ -253,6 +254,7 @@
         "defaultShipmentQuantity": 1,
         "locationInventoryQuantity": 0
       },
+      "displayOrderRefNumber": 0,
       "CustomMessages": {
         "readyForPickupInstructions": "Prêt pour le ramassage des instructions",
         "afterPickingTheOrder": "Après la cueillette de la commande, placez les dans une boîte ou en sachet articles dans le Magasin de Ramasser maintenez la zone; l'étiquette de plus grands objets avec une copie de la liste de ramassage.",
@@ -372,6 +374,7 @@
         "results": "Résultats",
         "shipmentNumber": "Expédition",
         "orderNumber": "Ordre",
+        "orderRefNumber": "Numéro de référence de la commande",
         "externalOrderId": "Commande externe",
         "status": "Statut",
         "assignedTo": "Assigné à",
