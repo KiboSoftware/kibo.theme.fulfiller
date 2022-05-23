@@ -122,6 +122,7 @@
           "customerFirstName": "Prénom du client",
           "customerLastName": "Nom du client",
           "customerEmailAddress": "Adresse e-mail du client",
+          "customerPhoneNumber": "Numéro de téléphone du client",
           "shipmentStatusTitle": "Expédition statut",
           "shipmentStatus": {
             "ready": "Prêt",
@@ -132,7 +133,10 @@
           },
           "submittedDateRange": "Plage de dates soumise",
           "returnNumber": "Numéro de retour",
-          "phoneNumber": "Numéro de téléphone"
+          "phoneNumber": "Numéro de téléphone",
+          "shipmentNumber": "Numéro d'expédition",
+          "orderNumber": "Numéro de commande",
+          "itemUPC": "UPC"
         },
         "ToasterMessages": {
           "quicksearchMessage": "Impossible de rechercher rapidement avec une valeur ",

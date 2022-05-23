@@ -122,6 +122,7 @@
           "customerFirstName": "Customer First Name",
           "customerLastName": "Customer Last Name",
           "customerEmailAddress": "Customer Email Address",
+          "customerPhoneNumber": "Customer Phone Number",
           "shipmentStatusTitle": "Shipment Status",
           "shipmentStatus": {
             "ready": "Ready",
@@ -132,7 +133,10 @@
           },
           "submittedDateRange": "Submitted Date Range",
           "returnNumber": "Return Number",
-          "phoneNumber": "Phone Number"
+          "phoneNumber": "Phone Number",
+          "shipmentNumber": "Shipment Number",
+          "orderNumber": "Order Number",
+          "itemUPC": "UPC"
         },
         "ToasterMessages": {
           "quicksearchMessage": "Unable to quick search with value ",
