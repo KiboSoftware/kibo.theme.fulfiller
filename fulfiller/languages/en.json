@@ -490,6 +490,8 @@
       "contactName": "CONTACT NAME",
       "shippingAdd": "SHIPPING ADDRESS",
       "billingAdd": "BILLING ADDRESS",
+      "primaryContact": "Primary Contact",
+      "alternateContact": "Alternate Contact",
       "labels": {
         "phone": "Phone",
         "home": "Home",
@@ -1502,6 +1504,8 @@
         "title": "Create manifests",
         "manifestInfo": "Choose orders to include in a manifest",
         "createAndPrintButton": "Create and print",
+        "selectNumberOfDays": "Number of Days (1-7):",
+        "getEligibleShipments": "Get Eligible Shipments",
         "Dialog": {
             "title":"Create Manifest",
             "message":"Are you sure you want to create a manifest? Your Canada Post account will be charged.",
@@ -1903,7 +1907,8 @@
     "PackingSlipNumberNotAssignedCompletely": "We see that the number of packing slips split is not completely assigned",
     "maximumPackingSlipError": "You've reached the maximum number of packing slips, please update Location Group settings to increase",
     "UnableToProceedNext": "Unable to Proceed to next step",
-    "UnableToRevert": "Unable to Revert the Step"
+    "UnableToRevert": "Unable to Revert the Step",
+    "UnableToGetKiboConfiguration": "Unable to get the Kibo Configuration details"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{

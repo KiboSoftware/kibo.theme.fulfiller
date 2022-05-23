@@ -490,6 +490,8 @@
       "contactName": "NOM DU CONTACT",
       "shippingAdd": "ADRESSE DE LIVRAISON",
       "billingAdd": "ADRESSE DE FACTURATION",
+      "primaryContact": "Premier contact",
+      "alternateContact": "Autre contact",
       "labels": {
         "phone": "Téléphone",
         "home": "Accueil",
@@ -1502,6 +1504,8 @@
       "title": "Créer des manifestes",
       "manifestInfo": "Choisissez les commandes à inclure dans un manifeste",
       "createAndPrintButton": "Créer et imprimer",
+      "selectNumberOfDays": "Nombre de Jours (1-7):",
+      "getEligibleShipments": "Obtenez des envois éligibles",
       "Dialog": {
         "title": "Créer un manifeste",
         "message": "Voulez-vous vraiment créer un manifeste? Votre compte Postes Canada sera débité.",
@@ -1903,7 +1907,8 @@
     "PackingSlipNumberNotAssignedCompletely": "Nous voyons que le nombre de bons de livraison fractionnés n'est pas complètement attribué",
     "maximumPackingSlipError": "Vous avez atteint le nombre maximum de bons de livraison, veuillez mettre à jour les paramètres du groupe d'emplacements pour augmenter",
     "UnableToProceedNext": "Impossible de passer à l'étape suivante",
-    "UnableToRevert": "Impossible d'annuler l'étape"
+    "UnableToRevert": "Impossible d'annuler l'étape",
+    "UnableToGetKiboConfiguration": "Impossible d'obtenir les détails de la configuration de Kibo"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
