@@ -127,6 +127,7 @@
           "shipmentStatus": {
             "ready": "Prêt",
             "fulfilled": "Rempli",
+            "future": "Avenir",
             "backorder": "Commande Différée",
             "cancelled": "Annulé",
             "customerCare": "Service client"
@@ -208,7 +209,8 @@
       "onPickWave": "Sur Pick Wave",
       "paymentError": "(Erreur de paiement)",
       "pendingReview": "(En attendant l'examen)",
-      "historicalImportShipmentHighlighterMessage": "Expédition pour la commande importée historique"
+      "historicalImportShipmentHighlighterMessage": "Expédition pour la commande importée historique",
+      "futureDate": "Date ultérieure"
     },
     "ProductDetailsGrid": {
       "image": "Image",
@@ -398,6 +400,7 @@
       },
       "GridHeader": {
         "placed": "Mis",
+        "futureDate": "Date ultérieure",
         "expectedPickupDate": "Date de ramassage prévue",
         "assignedtoYourStore": "Attribué à votre magasin",
         "acceptedbyYourStore": "Accepté par votre magasin",
@@ -1121,6 +1124,7 @@
         "discount": "Remise",
         "adjustment": "Ajustement",
         "pricePaid": "Prix unitaire",
+        "itemAdjustment": "Article Ajustement",
         "Placeholder": {
           "currentStockAmount": "Montant actuel du stock"
         }
@@ -1951,7 +1955,8 @@
       "BACKORDER": "COMMANDE DIFFÉRÉE",
       "FULFILLED": "REMPLI",
       "CUSTOMER_CARE": "SERVICE CLIENTE",
-      "CANCELED": "ANNULÉ"
+      "CANCELED": "ANNULÉ",
+      "FUTURE": "AVENIR"
     },
     "ButtonTextPrefix": {
       "ProceedTo": "Procéder à",
