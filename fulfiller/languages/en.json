@@ -127,6 +127,7 @@
           "shipmentStatus": {
             "ready": "Ready",
             "fulfilled": "Fulfilled",
+            "future": "Future",
             "backorder": "Backorder",
             "cancelled": "Cancelled",
             "customerCare": "Customer Care"
@@ -208,7 +209,8 @@
       "onPickWave": "On Pick Wave",
       "paymentError": "(Payment Error)",
       "pendingReview": "(Pending Review)",
-      "historicalImportShipmentHighlighterMessage": "Shipment for historical imported order"
+      "historicalImportShipmentHighlighterMessage": "Shipment for historical imported order",
+      "futureDate": "Future Date"
     },
     "ProductDetailsGrid": {
       "image": "Image",
@@ -398,6 +400,7 @@
       },
       "GridHeader": {
         "placed": "Placed",
+        "futureDate": "Future Date",
         "expectedPickupDate": "Expected Pickup Date",
         "assignedtoYourStore": "Assigned to Your Store",
         "acceptedbyYourStore": "Accepted by Your Store",
@@ -1121,6 +1124,7 @@
         "discount": "Discount",
         "adjustment": "Adjustment",
         "pricePaid": "Unit Price",
+        "itemAdjustment": "Item Adjustment",
         "Placeholder": {
           "currentStockAmount": "Current Stock Amount"
         }
@@ -1951,7 +1955,8 @@
       "BACKORDER": "BACKORDER",
       "FULFILLED": "FULFILLED",
       "CUSTOMER_CARE": "CUSTOMER-CARE",
-      "CANCELED": "CANCELED"
+      "CANCELED": "CANCELED",
+      "FUTURE": "FUTURE"
     },
     "ButtonTextPrefix": {
       "ProceedTo": "Proceed To",
