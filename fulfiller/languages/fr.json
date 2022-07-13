@@ -530,8 +530,13 @@
     },
     "ReprintList": {
       "packingSlip": "Bon de livraison",
+      "packingSheet": "Prendre Feuille",
+      "reprintPickSheet": "Réimpression Prendre Feuille",
       "reprintPackingSlip": "Réimpression du bordereau d'emballage",
       "returnTrackingNumber": "Numéro de suivi de retour"
+    },
+    "CreateNewShippingLabel": {
+      "newShippingLabel": "Create New Shipping Label"
     },
     "ItemIdentification": {
       "itemIdentificationTitle" : "Numéro d'identification",
@@ -1912,7 +1917,9 @@
     "maximumPackingSlipError": "Vous avez atteint le nombre maximum de bons de livraison, veuillez mettre à jour les paramètres du groupe d'emplacements pour augmenter",
     "UnableToProceedNext": "Impossible de passer à l'étape suivante",
     "UnableToRevert": "Impossible d'annuler l'étape",
-    "UnableToGetKiboConfiguration": "Impossible d'obtenir les détails de la configuration de Kibo"
+    "UnableToGetKiboConfiguration": "Impossible d'obtenir les détails de la configuration de Kibo",
+    "CompletedPrintPickSheetStep": "L'étape d'impression de la liste de sélection a été effectuée avec succès",
+    "UnableToCompletedPrintPickSheetStep": "Impossible de terminer l'étape d'impression de la liste de sélection"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
