@@ -530,8 +530,13 @@
     },
     "ReprintList": {
       "packingSlip": "Packing Slip",
+      "packingSheet": "Pick Sheet",
+      "reprintPickSheet": "Reprint Pick Sheet",
       "reprintPackingSlip": "Reprint Packing Slip",
       "returnTrackingNumber": "Return Tracking Number"
+    },
+    "CreateNewShippingLabel": {
+      "newShippingLabel": "Create New Shipping Label"
     },
     "ItemIdentification": {
       "itemIdentificationTitle" : "Idetification Number",
@@ -1912,7 +1917,9 @@
     "maximumPackingSlipError": "You've reached the maximum number of packing slips, please update Location Group settings to increase",
     "UnableToProceedNext": "Unable to Proceed to next step",
     "UnableToRevert": "Unable to Revert the Step",
-    "UnableToGetKiboConfiguration": "Unable to get the Kibo Configuration details"
+    "UnableToGetKiboConfiguration": "Unable to get the Kibo Configuration details",
+    "CompletedPrintPickSheetStep": "Successfully completed the Print Pick List Step",
+    "UnableToCompletedPrintPickSheetStep": "Unable to complete the Print Pick List Step"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
