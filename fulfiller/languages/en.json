@@ -387,8 +387,10 @@
         "type": "Shipment Type",
         "sortBy": "Sort By",
         "SortOrder": {
-          "newestFirst": "Newest First",
-          "oldestFirst": "Oldest First",
+          "orderFirst": "Order Placed First",
+          "orderLast": "Order Placed Last",
+          "newestFirst": "Shipment Assigned Last",
+          "oldestFirst": "Shipment Assigned First",
           "shipmentLowTotal": "Shipment Total Low",
           "shipmentHighTotal": "Shipment Total High"
         },

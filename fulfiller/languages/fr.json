@@ -387,8 +387,10 @@
         "type": "Type d'envoi",
         "sortBy": "Trier par",
         "SortOrder": {
-          "newestFirst": "Le plus récent d'abord",
-          "oldestFirst": "Le plus ancien d'abord",
+          "orderFirst": "Commande passée en premier",
+          "orderLast": "Commande passée en dernier",
+          "newestFirst": "Envoi attribué en dernier",
+          "oldestFirst": "Envoi attribué en premier",
           "shipmentLowTotal": "Expédition totale faible",
           "shipmentHighTotal": "Expédition totale élevée"
         },
