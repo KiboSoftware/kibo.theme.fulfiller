@@ -516,7 +516,7 @@
       "note": "Note"
     },
     "ShipmentNotes": {
-      "title": "Internal Shipment Notes",
+      "title": "Shipment Notes",
       "dateAdded": "Date Added",
       "user": "User",
       "role": "Role",
@@ -615,7 +615,7 @@
       "customerInformation": "Customer Information",
       "shipmentHistory": "Shipment History",
       "orderNotes": "Internal Order Notes",
-      "shipmentNotes": "Internal Shipment Notes"
+      "shipmentNotes": "Shipment Notes"
     },
     "PrepareShipmentSTH": {
       "title": "Prepare for Shipment",
@@ -745,7 +745,7 @@
       "customerInformation": "Customer Information",
       "shipmentHistory": "Shipment History",
       "orderNotes": "Internal Order Notes",
-      "shipmentNotes": "Internal Shipment Notes"
+      "shipmentNotes": "Shipment Notes"
     },
     "TABS": {
       "Accept Shipment": "Accept Shipment",
@@ -941,7 +941,7 @@
       "shipmentHistory": "Shipment History",
       "orderNotes": "Internal Order Notes",
       "selectLocationMessage": "Please select location to fulfill this shipment.",
-      "shipmentNotes": "Internal Shipment Notes"
+      "shipmentNotes": "Shipment Notes"
     },
     "PrepareShipmentSTH": {
       "title": "Prepare for Shipment",
@@ -1092,7 +1092,7 @@
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
         "orderNotes": "Internal Order Notes",
-        "shipmentNotes": "Internal Shipment Notes"
+        "shipmentNotes": "Shipment Notes"
       },
       "onPickWave": "On Pick Wave"
     },
@@ -1570,7 +1570,7 @@
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
         "orderNotes": "Internal Order Notes",
-        "shipmentNotes": "Internal Shipment Notes"
+        "shipmentNotes": "Shipment Notes"
       },
       "PickupInfoKeys": {
         "MethodofDelivery": "Method of Delivery",
@@ -1716,7 +1716,7 @@
         "customerInformation": "Customer Information",
         "shipmentHistory": "Shipment History",
         "orderNotes": "Internal Order Notes",
-        "shipmentNotes": "Internal Shipment Notes"
+        "shipmentNotes": "Shipment Notes"
       },
       "onPickWave": "On Pick Wave"
     },
