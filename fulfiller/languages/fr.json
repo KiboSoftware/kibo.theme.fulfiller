@@ -516,7 +516,7 @@
       "note": "Remarque"
     },
     "ShipmentNotes": {
-      "title": "Notes d'expédition internes",
+      "title": "Notes d'expédition",
       "dateAdded": "Date D'Ajout",
       "user": "L'utilisateur",
       "role": "Rôle",
@@ -615,7 +615,7 @@
       "customerInformation": "Informations client",
       "shipmentHistory": "Historique des expéditions",
       "orderNotes": "Notes de commande interne",
-      "shipmentNotes": "Notes d'expédition internes"
+      "shipmentNotes": "Notes d'expédition"
     },
     "PrepareShipmentSTH": {
       "title": "Préparez-vous à l'expédition",
@@ -737,7 +737,7 @@
       "customerInformation": "Informations client",
       "shipmentHistory": "Historique des expéditions",
       "orderNotes": "Notes de commande interne",
-      "shipmentNotes": "Notes d'expédition internes"
+      "shipmentNotes": "Notes d'expédition"
     },
     "TABS": {
       "Accept Shipment": "Accepter l'expédition",
@@ -933,7 +933,7 @@
       "shipmentHistory": "Historique des expéditions",
       "orderNotes": "Notes de commande interne",
       "selectLocationMessage": "Veuillez sélectionner l'emplacement pour effectuer cette expédition.",
-      "shipmentNotes": "Notes d'expédition internes"
+      "shipmentNotes": "Notes d'expédition"
     },
     "WaitForPaymentSTH": {
       "title": "Attendez la confirmation du paiement",
@@ -1092,7 +1092,7 @@
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
         "orderNotes": "Notes de commande interne",
-        "shipmentNotes": "Notes d'expédition internes"
+        "shipmentNotes": "Notes d'expédition"
       },
       "onPickWave": "Sur Pick Wave"
     },
@@ -1570,7 +1570,7 @@
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
         "orderNotes": "Notes de commande interne",
-        "shipmentNotes": "Notes d'expédition internes"
+        "shipmentNotes": "Notes d'expédition"
       },
       "PickupInfoKeys": {
         "MethodofDelivery": "Mode de livraison",
@@ -1716,7 +1716,7 @@
         "customerInformation": "Informations client",
         "shipmentHistory": "Historique des expéditions",
         "orderNotes": "Notes de commande interne",
-        "shipmentNotes": "Notes d'expédition internes"
+        "shipmentNotes": "Notes d'expédition"
       },
       "onPickWave": "Sur Pick Wave"
     },
