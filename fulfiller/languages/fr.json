@@ -1480,7 +1480,7 @@
       "yesReceiveItems": "Oui, recevez les articles entrants",
       "createNewTransfer": "Créer un nouveau transfert",
       "CancelItems": "Annuler les articles de cette commande",
-      "receivedItemsLabel": "Vous venez de recevoir des articles qui préparent partiellement l'expédition",
+      "receivedItemsLabel": "Vous venez de recevoir des articles à expédier",
       "pickupLabel": "pour le ramassage des clients",
       "transferComplete": "Tous les transferts pour cette expédition sont terminés",
       "receivedAndReady": "Reçu et prêt",
