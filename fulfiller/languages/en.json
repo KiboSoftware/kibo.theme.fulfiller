@@ -1480,7 +1480,7 @@
       "yesReceiveItems": "Yes, receive incoming items",
       "createNewTransfer": "Request New Transfer",
       "CancelItems": "Cancel Item(s) Off This Shipment",
-      "receivedItemsLabel": "You have just received items that partially prepare shipment",
+      "receivedItemsLabel": "You have just received items for shipment",
       "pickupLabel": "for customer pickup",
       "transferComplete": "All transfers for this shipment are complete",
       "receivedAndReady": "Received & Ready",
