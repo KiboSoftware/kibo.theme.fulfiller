@@ -1353,7 +1353,7 @@
       "showInactiveUsers": "Show Inactive Users",
       "editStoreAssociations": "Edit User Store Associations for",
       "associateLocations": "Associate store locations to a user. Click on a store below to add to the list on the right",
-      "confirmToDeleteUser": "Are you sure you want to delete <b>{{userName}}</b>?",
+      "confirmToDeleteUser": "Are you sure you want to remove access for <b>{{userName}}</b>?",
       "confirmResetUserPassword": "Are you sure you want to reset <b>{{userName}}'s</b> password?",
       "confirmUpdateUser": "Are you sure you want to update <b>{{userName}}</b>?",
       "confirmReactivateUser": "Are you sure you want to reactivate <b>{{userName}}<b/>",
@@ -1364,7 +1364,8 @@
       "deleteUserFulfillerRolesFail": "Unable to delete {{userName}}",
       "resetUserPasswordFail": "Unable to reset {{userName}}'s password",
       "resetUserPasswordSuccess": "{{userName}}'s password reset successfully",
-      "confirmNewUser": "New user successfully created"
+      "confirmNewUser": "New user successfully created",
+      "existingUserActivated": "Existing User {{userName}} was granted the {{roleName}} role"
     },
     "ErrorMessages": {
       "userNameBlank": "Username cannot be blank",

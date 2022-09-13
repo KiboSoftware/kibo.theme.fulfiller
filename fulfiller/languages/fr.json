@@ -1353,7 +1353,7 @@
       "showInactiveUsers": "Afficher les utilisateurs inactifs",
       "editStoreAssociations": "Modifier les associations de magasins d'utilisateurs pour",
       "associateLocations": "Associez les emplacements des magasins à un utilisateur. Cliquez sur un magasin ci-dessous pour ajouter à la liste de droite",
-      "confirmToDeleteUser": "Etes-vous sûr que vous voulez supprimer <b>{{userName}}</b>?",
+      "confirmToDeleteUser": "Voulez-vous vraiment supprimer l'accès pour <b>{{userName}}</b>?",
       "confirmResetUserPassword": "Voulez-vous vraiment réinitialiser <b>{{userName}}'s</b> password?",
       "confirmUpdateUser": "Voulez-vous vraiment mettre à jour <b>{{userName}}</b>?",
       "confirmReactivateUser": "Voulez-vous vraiment réactiver <b>{{userName}}<b/>",
@@ -1364,7 +1364,8 @@
       "deleteUserFulfillerRolesFail": "Impossible de supprimer {{userName}}",
       "resetUserPasswordFail": "Impossible de réinitialiser {{userName}}'s mot de passe",
       "resetUserPasswordSuccess": "{{userName}}'s réinitialisation du mot de passe réussie",
-      "confirmNewUser": "Nouvel utilisateur créé avec succès"
+      "confirmNewUser": "Nouvel utilisateur créé avec succès",
+      "existingUserActivated": "L'utilisateur existant {{userName}} a obtenu le rôle {{roleName}}"
     },
     "ErrorMessages": {
       "userNameBlank": "Le nom d'utilisateur ne peut pas être vide",
