@@ -397,7 +397,7 @@
         "onPickWave": "Sur Pick Wave",
         "fulfillmentNote": {
           "note": "Noter:",
-          "message": "Tous les envois surlignés en jaune avec des statuts contenant « En attente de révision » ne sont actuellement pas réalisables"
+          "message": "Tous les envois surlignés en jaune avec des statuts contenant « Examen en attente » ou « Futur » ne sont actuellement pas réalisables"
         }
       },
       "GridHeader": {
@@ -528,6 +528,13 @@
       "toaster": {
         "errorUnableToGetWorlflow": "Impossible D'Obtenir De Flux De Travail",
         "errorErrorOccured": "Une erreur s'est produite lors de la tentative pour obtenir le flux de travail, s'il vous plaît essayer à nouveau plus tard"
+      }
+    },
+    "ForceFulfill": {
+      "forcefulfillButton": "Marquer comme expédié",
+      "toaster": {
+        "forcefulfillSuccess": "L'envoi est expédié avec succès",
+        "forcefulfillFail": "Échec de l'exécution de l'action"
       }
     },
     "ReprintList": {
