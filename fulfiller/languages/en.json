@@ -397,7 +397,7 @@
         "onPickWave": "On Pick Wave",
         "fulfillmentNote": {
           "note": "Note:",
-          "message": "All shipments highlighted in yellow with statuses that contain 'Pending Review' are not currently fulfillable"
+          "message": "All shipments highlighted in yellow with statuses that contain 'Pending Review' or 'Future' are not currently fulfillable"
         }
       },
       "GridHeader": {
@@ -528,6 +528,13 @@
       "toaster": {
         "errorUnableToGetWorlflow": "Unable To Get Workflow",
         "errorErrorOccured": "An error occurred while trying to get the workflow, please try again later"
+      }
+    },
+    "ForceFulfill": {
+      "forcefulfillButton": "Mark as Shipped",
+      "toaster": {
+        "forcefulfillSuccess": "Shipment is Shipped Successfully",
+        "forcefulfillFail": "Fail to perform the action"
       }
     },
     "ReprintList": {
