@@ -167,7 +167,74 @@
       "close": "Close",
       "search": "Search",
       "continue": "Continue",
-      "scan": "Scan Items"
+      "scan": "Scan Items",
+      "substitute": "Substitute"
+    },
+    "ValidateItemStockSelection": {
+      "headers": {
+        "substituteItems": "Substitute Item(s) in stock",
+        "substituteByItems": "Substitutes"
+      },
+      "tableAttributes": {
+        "defaultTableHeaders": {
+          "image": "Image",
+          "product": "Product",
+          "productIdentifiers": "Product Identifiers",
+          "price": "Price"
+        },
+        "substituteItemTableHeaders": {
+          "substituteReason": "Reason",
+          "inventoryAvailability": "Inventory Available",
+          "substituteQuantity": "Substitute Quantity"
+        },
+        "substituteByItemTableHeaders": {
+          "productSubstituted": "Product Substituted",
+          "substitutedByProduct": "Substitute",
+          "substituteByProductIdentifiers": "Substitute Identifiers",
+          "substituteByQuantity" : "Substitute Quantity",
+          "removedSubstitutedProduct": "Remove Substitution",
+          "substituteByUnitPrice": "Unit Price",
+          "substituteByDiscount": "Discount",
+          "substituteByItemAdjustment": "Item Adjustment",
+          "substituteBySubtotal": "Subtotal"
+        }
+      },
+      "buttons": {
+        "confirm": "Confirm",
+        "removedSubstitutedItem": "Remove"
+      },
+      "toasterMessages": {
+        "exceedSubstituteQuantity": "Substitute Item Quantity cannot be greater than the required Quantity.",
+        "failedToSubstituteItem": "Unable to substitute the item.",
+        "failedToRemovedSubstituteItem": "Unable to remove the substitute item.",
+        "failedToGetSubstitutesInventory": "No product available for substitution."
+      },
+      "tooltipContent": {
+        "pricePaidTooltipForSubstituteItem": "No price adjustments have been made for the substituted item. Price charged for substituted item is the same as the item ordered."
+      }
+    },
+    "CustomerPickupSubstitution": {
+      "headers": {
+        "substituteByItems": "Substitutes"
+      },
+      "tableAttributes": {
+        "defaultTableHeaders": {
+          "image": "Image",
+          "product": "Product",
+          "productIdentifiers": "Product Identifiers",
+          "price": "Price"
+        },
+        "substituteByItemTableHeaders": {
+          "productSubstituted": "Product Substituted",
+          "substitutedByProduct": "Substitute",
+          "substituteByProductIdentifiers": "Substitute Identifiers",
+          "substituteByQuantity" : "Substitute Quantity",
+          "substitutedUnitPrice": "Unit Price",
+          "substitutedDiscount": "Discount",
+          "itemAdjustment": "Item Adjustment",
+          "substitutedSubtotal": "Subtotal"
+        }  
+      }
     },
     "PageNavigation": {
       "page": "Page",

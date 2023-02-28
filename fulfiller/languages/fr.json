@@ -167,7 +167,74 @@
       "close": "Fermer",
       "search": "Chercher",
       "continue": "Continuer",
-      "scan": "Analyser les éléments"
+      "scan": "Analyser les éléments",
+      "substitute": "Remplaçante"
+    },
+    "ValidateItemStockSelection": {
+      "headers": {
+        "substituteItems": "Article(s) de remplacement en stock",
+        "substituteByItems": "Remplaçants"
+      },
+      "tableAttributes": {
+        "defaultTableHeaders": {
+          "image": "Image",
+          "product": "Produit",
+          "productIdentifiers": "Identificateurs de produit",
+          "price": "Prix"
+        },
+        "substituteItemTableHeaders": {
+          "substituteReason": "Raison",
+          "inventoryAvailability": "Inventaire disponible",
+          "substituteQuantity": "Quantité de remplacement"
+        },
+        "substituteByItemTableHeaders": {
+          "productSubstituted": "Produit remplacé",
+          "substitutedByProduct": "Remplaçante",
+          "substituteByProductIdentifiers": "Identificateurs de substitution",
+          "substituteByQuantity" : "Quantité de remplacement",
+          "removedSubstitutedProduct": "Supprimer la substitution",
+          "substituteByUnitPrice": "Prix unitaire",
+          "substituteByDiscount": "Remise",
+          "substituteByItemAdjustment": "Article Ajustement",
+          "substituteBySubtotal": "Total"
+        }
+      },
+      "buttons": {
+        "confirm": "Confirmer",
+        "removedSubstitutedItem": "Remove"
+      },
+      "toasterMessages": {
+        "exceedSubstituteQuantity": "La quantité d'articles de substitution ne peut pas être supérieure à la quantité requise.",
+        "failedToSubstituteItem": "Impossible de remplacer l'article.",
+        "failedToRemovedSubstituteItem": "Impossible de supprimer l'élément de substitution.",
+        "failedToGetSubstitutesInventory": "Aucun produit disponible pour substitution."
+      },
+      "tooltipContent": {
+        "pricePaidTooltipForSubstituteItem": "Aucun ajustement de prix n'a été effectué pour l'article de substitution. Le prix facturé pour l'article de substitution est le même que celui de l'article commandé."
+      }
+    },
+    "CustomerPickupSubstitution": {
+      "headers": {
+        "substituteByItems": "Substituts"
+      },
+      "tableAttributes": {
+        "defaultTableHeaders": {
+          "image": "Image",
+          "product": "Produit",
+          "productIdentifiers": "Identificateurs de produit",
+          "price": "Prix"
+        },
+        "substituteByItemTableHeaders": {
+          "productSubstituted": "Produit remplacé",
+          "substitutedByProduct": "remplaçant",
+          "substituteByProductIdentifiers": "Identificateurs de substitution",
+          "substituteByQuantity" : "Quantité de remplacement",
+          "substitutedUnitPrice": "Prix ​​unitaire",
+          "substitutedDiscount": "Remise",
+          "itemAdjustment": "Article Ajustement",
+          "substitutedSubtotal": "Total"
+        }
+      }
     },
     "PageNavigation": {
       "page": "Page",
