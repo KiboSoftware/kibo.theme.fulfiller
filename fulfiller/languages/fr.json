@@ -236,6 +236,12 @@
         }
       }
     },
+    "PackingSlipSubstitution":{
+      "Substitution": {
+          "substitutedItem": "remplaçante pour",
+          "variationProductCode": "Code de produit de variation"
+      }
+    },
     "PageNavigation": {
       "page": "Page",
       "of": "de",
