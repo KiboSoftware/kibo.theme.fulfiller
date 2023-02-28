@@ -236,6 +236,12 @@
         }  
       }
     },
+    "PackingSlipSubstitution":{
+      "Substitution": {
+        "substitutedItem": "Substitute for",
+        "variationProductCode": "Variation Product Code"
+      }
+    },
     "PageNavigation": {
       "page": "Page",
       "of": "of",
