@@ -233,7 +233,7 @@
           "substitutedDiscount": "Discount",
           "itemAdjustment": "Item Adjustment",
           "substitutedSubtotal": "Subtotal"
-        }  
+        }
       }
     },
     "PackingSlipSubstitution":{
@@ -1364,6 +1364,14 @@
         "toaster": {
           "warningIfQtyIsZero": "Quantity of all items is 0, please select items"
         }
+      }
+    },
+    "SplitAssemblyItems": {
+      "Button": "Split For Order Preparation",
+      "Dialog": {
+        "thankYou": "Thank You",
+        "pickupComplete": "Split Shipment complete",
+        "close": "Close"
       }
     }
   },
