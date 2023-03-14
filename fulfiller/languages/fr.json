@@ -1365,6 +1365,14 @@
           "warningIfQtyIsZero": "La quantité de tous les articles est de 0, veuillez sélectionner les articles"
         }
       }
+    },
+    "SplitAssemblyItems": {
+      "Button": "Fractionner pour la préparation des commandes",
+      "Dialog": {
+        "thankYou": "Merci",
+        "pickupComplete": "Expédition fractionnée terminée",
+        "close": "proche"
+      }
     }
   },
   "USERSETTINGS": {
