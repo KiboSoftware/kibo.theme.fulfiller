@@ -518,6 +518,12 @@
         "fulfilledTitle": "Souhaitez-vous voir cet envoi",
         "fulfillmentBtn": "Terminer l'expédition",
         "fulfilledBtn": "Voir l'expédition"
+      },
+      "EmailNotification": {
+        "resendShipmentCanceled": "Renvoyer l'e-mail d'annulation de l'envoi",
+        "resendShipmentFulfilled": "Renvoyer l'envoi E-mail rempli",
+        "resendEmail": "Demande renvoyée par e-mail",
+        "emailSentSuccessMessage": "Demande par e-mail renvoyée avec succès."
       }
     },
     "Returns": {

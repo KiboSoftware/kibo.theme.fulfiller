@@ -518,6 +518,12 @@
         "fulfilledTitle": "Would you like to view this shipment",
         "fulfillmentBtn": "Finish Fulfilling Shipment",
         "fulfilledBtn": "View Shipment"
+      },
+      "EmailNotification": {
+        "resendShipmentCanceled": "Resend Shipment Canceled Email",
+        "resendShipmentFulfilled": "Resend shipment Fulfilled Email",
+        "resendEmail": "Resent Email request",
+        "emailSentSuccessMessage": "Successfully resent e-mail request."
       }
     },
     "Returns": {
