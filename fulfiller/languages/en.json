@@ -621,7 +621,8 @@
       "packingSheet": "Pick Sheet",
       "reprintPickSheet": "Reprint Pick Sheet",
       "reprintPackingSlip": "Reprint Packing Slip",
-      "returnTrackingNumber": "Return Tracking Number"
+      "returnTrackingNumber": "Return Tracking Number",
+      "PrintLabelFailMessage": "Unable to print label, please try again"
     },
     "CreateNewShippingLabel": {
       "newShippingLabel": "Create New Shipping Label"
@@ -747,7 +748,18 @@
         "kg": "kg",
         "inches": "inches",
         "lbs": "lbs"
-      }
+      },
+      "shippingLabelErrorMessages": {
+        "emptyDestinationAddress":"Destination address is not specified.",
+        "missingItemsMessage":"Please add the follow item(s) before printing a shipping label:",
+        "shipmentWithEmptyDestinationAddress":"Shipment does not have a destination address info.",
+        "improperDestinationAddress": "Shipment does not have a proper address for destination address info.",
+        "improperFirstLastName":"Shipment does not have a proper first and lastname for destination address info.",
+        "emptyFulfillmentAddress":"Shipment does not have a fulfillment address info.",
+        "improperFulfillmentAdress":"Shipment does not have a proper address for fulfillment address info.",
+        "emptyOrderNumber": "Shipment does not have an order number.",
+        "emptyShipmentNumber":"Shipment does not have a shipment number."
+      }      
     },
     "PrintPackSheetSTH": {
       "title": "Print Packing Slip",

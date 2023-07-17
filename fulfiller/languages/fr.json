@@ -621,7 +621,8 @@
       "packingSheet": "Prendre Feuille",
       "reprintPickSheet": "Réimpression Prendre Feuille",
       "reprintPackingSlip": "Réimpression du bordereau d'emballage",
-      "returnTrackingNumber": "Numéro de suivi de retour"
+      "returnTrackingNumber": "Numéro de suivi de retour",
+      "PrintLabelFailMessage": "Impossible d'imprimer l'étiquette, veuillez réessayer"
     },
     "CreateNewShippingLabel": {
       "newShippingLabel": "Create New Shipping Label"
@@ -747,6 +748,17 @@
         "kg": "kg",
         "inches": "pouces",
         "lbs": "Kg"
+      },
+      "shippingLabelErrorMessages": {
+        "emptyDestinationAddress":"L'adresse de destination n'est pas spécifiée.",
+        "missingItemsMessage":"Veuillez ajouter les éléments suivants) avant d'imprimer une étiquette d'expédition:",
+        "shipmentWithEmptyDestinationAddress":"L'envoi n'a pas d'informations sur l'adresse de destination.",
+        "improperDestinationAddress": "L'envoi n'a pas d'adresse appropriée pour les informations d'adresse de destination.",
+        "improperFirstLastName":"L'envoi n'a pas de prénom et de nom appropriés pour les informations d'adresse de destination.",
+        "emptyFulfillmentAddress":"L'envoi n'a pas d'informations sur l'adresse de traitement.",
+        "improperFulfillmentAdress":"L'envoi n'a pas d'adresse appropriée pour les informations d'adresse de traitement.",
+        "emptyOrderNumber": "L'envoi n'a pas de numéro de commande.",
+        "emptyShipmentNumber":"L'envoi n'a pas de numéro d'envoi."
       }
     },
     "PrintPackSheetSTH": {
