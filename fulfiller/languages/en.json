@@ -656,6 +656,9 @@
         "save": "Save",
         "cancel": "Cancel"
       }
+    },
+    "MenuNavigation": {
+      "action": "Action"
     }
   },
   "SHIPTOHOME": {
@@ -759,7 +762,7 @@
         "improperFulfillmentAdress":"Shipment does not have a proper address for fulfillment address info.",
         "emptyOrderNumber": "Shipment does not have an order number.",
         "emptyShipmentNumber":"Shipment does not have a shipment number."
-      }      
+      }
     },
     "PrintPackSheetSTH": {
       "title": "Print Packing Slip",

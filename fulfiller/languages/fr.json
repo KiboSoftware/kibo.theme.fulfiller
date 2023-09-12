@@ -656,6 +656,9 @@
         "save": "Save",
         "cancel": "Cancel"
       }
+    },
+    "MenuNavigation": {
+      "action": "Action"
     }
   },
   "SHIPTOHOME": {
