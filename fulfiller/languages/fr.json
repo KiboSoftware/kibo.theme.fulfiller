@@ -2031,7 +2031,9 @@
     "UnableToRevert": "Impossible d'annuler l'étape",
     "UnableToGetKiboConfiguration": "Impossible d'obtenir les détails de la configuration de Kibo",
     "CompletedPrintPickSheetStep": "L'étape d'impression de la liste de sélection a été effectuée avec succès",
-    "UnableToCompletedPrintPickSheetStep": "Impossible de terminer l'étape d'impression de la liste de sélection"
+    "UnableToCompletedPrintPickSheetStep": "Impossible de terminer l'étape d'impression de la liste de sélection",
+    "ShipmentsManifestSuccessfulPreviously" : "Les expéditions suivantes dans les manifestes ont été mises à jour avec succès avec les données requises du manifeste. Pour les expéditions qui n'ont pas pu être mises à jour, veuillez créer de nouveaux manifestes.",
+    "ShipmentsUpdatedSuccessfully" : "Expéditions mises à jour avec succès"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
