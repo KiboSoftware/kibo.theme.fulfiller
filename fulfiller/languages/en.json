@@ -2031,7 +2031,9 @@
     "UnableToRevert": "Unable to Revert the Step",
     "UnableToGetKiboConfiguration": "Unable to get the Kibo Configuration details",
     "CompletedPrintPickSheetStep": "Successfully completed the Print Pick List Step",
-    "UnableToCompletedPrintPickSheetStep": "Unable to complete the Print Pick List Step"
+    "UnableToCompletedPrintPickSheetStep": "Unable to complete the Print Pick List Step",
+    "ShipmentsManifestSuccessfulPreviously" : "The following shipments in Manifests have been updated successfully with required Manifest data. For shipments that could not get updated successfully, please create new Manifests",
+    "ShipmentsUpdatedSuccessfully" : "Shipments updated successfully"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
