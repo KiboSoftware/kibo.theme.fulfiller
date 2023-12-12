@@ -381,7 +381,13 @@
         "enabled": true,
         "message": "Fulfillment disabled for shipments associated with orderNumber {{orderNumber}} due to payment issue."
       },
-      "hideEmptyShipmentsBuckets": 0
+      "hideEmptyShipmentsBuckets": 0,
+      "ShippingManifests": {
+        "EligibleShipments": {
+          "defaultSelectedNumberOfDays": 1,
+          "maxNumberOfDays": 7
+        }
+      }
     },
     "ToasterSummary": {
       "errorMessage": "Error Message",
@@ -1625,7 +1631,7 @@
         "title": "Create manifests",
         "manifestInfo": "Choose orders to include in a manifest",
         "createAndPrintButton": "Create and print",
-        "selectNumberOfDays": "Number of Days (1-7):",
+        "selectNumberOfDays": "Number of Days",
         "getEligibleShipments": "Get Eligible Shipments",
         "Dialog": {
             "title":"Create Manifest",

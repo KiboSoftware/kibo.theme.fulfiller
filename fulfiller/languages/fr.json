@@ -381,7 +381,13 @@
         "enabled": true,
         "message": "Exécution désactivée pour les envois associés à orderNumber {{orderNumber}} en raison d'un problème de paiement."
       },
-      "hideEmptyShipmentsBuckets": 0
+      "hideEmptyShipmentsBuckets": 0,
+      "ShippingManifests": {
+        "EligibleShipments": {
+          "defaultSelectedNumberOfDays": 1,
+          "maxNumberOfDays": 7
+        }
+      }
     },
     "ToasterSummary": {
       "errorMessage": "Message d'erreur",
@@ -1625,7 +1631,7 @@
       "title": "Créer des manifestes",
       "manifestInfo": "Choisissez les commandes à inclure dans un manifeste",
       "createAndPrintButton": "Créer et imprimer",
-      "selectNumberOfDays": "Nombre de Jours (1-7):",
+      "selectNumberOfDays": "Nombre de Jours",
       "getEligibleShipments": "Obtenez des envois éligibles",
       "Dialog": {
         "title": "Créer un manifeste",
