@@ -1667,7 +1667,8 @@
     "fxcbQuestions" : [
       "Vous avez placé tous les articles, la liste de colisage et le matériel promotionnel dans le colis?",
       "Avez-vous commencé la génération de documents?"
-    ]
+    ],
+    "printGiftReceiptButton": "Imprimer le reçu cadeau"
   },
   "CURBSIDE": {
     "Fulfillment": {
