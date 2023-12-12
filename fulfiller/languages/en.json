@@ -1667,7 +1667,8 @@
     "fxcbQuestions" : [
       "Placed all items, the packing list, and promotional materials in the package?",
       "Have you started the generation of documents?"
-    ]
+    ],
+    "printGiftReceiptButton": "Print Gift Receipt"
   },
   "CURBSIDE": {
     "Fulfillment": {
