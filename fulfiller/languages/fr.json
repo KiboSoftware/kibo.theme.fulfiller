@@ -665,6 +665,10 @@
     },
     "MenuNavigation": {
       "action": "Action"
+    },
+    "MultiPieceShipment": {
+      "title": "Multi Piece Shipment",
+      "multipieceTooltip": "Generate a single master tracking number for all packages in the shipment"
     }
   },
   "SHIPTOHOME": {
@@ -689,6 +693,9 @@
     },
     "CompleteSTH": {
       "trackNo": "Numéro de suivi",
+      "of": "de",
+      "masterTrackNo": "Numéro de suivi principal",
+      "packageTrackNo": "Numéro de suivi du colis",
       "emptyTrackingListText": "Il n'y a pas encore de numéro de suivi pour cette expédition",
       "orderComplete": "Expédition terminée",
       "haveYou": "Avez-vous",
@@ -714,6 +721,8 @@
       "shipmentNotes": "Notes d'expédition"
     },
     "PrepareShipmentSTH": {
+      "multipieceCheckbox": "Utiliser l'envoi multi-pièces",
+      "multipieceCheckboxTooltip": "Générez un numéro de suivi principal unique pour tous les colis de l'envoi",
       "title": "Préparez-vous à l'expédition",
       "tabHeader":"Bordereau d'expédition",
       "BODY": {
@@ -748,6 +757,7 @@
         "exceedsTrackingNo": "Le numéro de suivi ne doit pas dépasser 50 caractères"
       },
       "printShippingbtn": "Imprimer l'étiquette d'expédition",
+      "saveBtn": "Sauvegarder",
       "printShippingLabel": "Veuillez ajouter les articles suivants avant d'imprimer une étiquette d'expédition: l'envoi n'a pas d'informations d'adresse de livraison.",
       "generateShippingLabelInvalid": "Informations d'étiquette d'expédition non valides",
       "generateShippingLabelFail": "Impossible de créer une étiquette d'expédition, veuillez réessayer",
@@ -767,7 +777,8 @@
         "emptyFulfillmentAddress":"L'envoi n'a pas d'informations sur l'adresse de traitement.",
         "improperFulfillmentAdress":"L'envoi n'a pas d'adresse appropriée pour les informations d'adresse de traitement.",
         "emptyOrderNumber": "L'envoi n'a pas de numéro de commande.",
-        "emptyShipmentNumber":"L'envoi n'a pas de numéro d'envoi."
+        "emptyShipmentNumber":"L'envoi n'a pas de numéro d'envoi.",
+        "carrierNotEnabledForShippingRuntime": "Transporteur non activé pour l'exécution d'expédition"
       }
     },
     "PrintPackSheetSTH": {
@@ -1083,6 +1094,7 @@
         "invalidtrackingNo": "Le numéro de suivi doit être alphanumérique"
       },
       "printShippingbtn": "Imprimer l'étiquette d'expédition",
+      "saveBtn": "Sauvegarder",
       "manualTrackingNo": "Entrez le numéro de suivi manuellement"
     },
     "PrintPackSheetSTH": {
@@ -2040,7 +2052,8 @@
     "CompletedPrintPickSheetStep": "L'étape d'impression de la liste de sélection a été effectuée avec succès",
     "UnableToCompletedPrintPickSheetStep": "Impossible de terminer l'étape d'impression de la liste de sélection",
     "ShipmentsManifestSuccessfulPreviously" : "Les expéditions suivantes dans les manifestes ont été mises à jour avec succès avec les données requises du manifeste. Pour les expéditions qui n'ont pas pu être mises à jour, veuillez créer de nouveaux manifestes.",
-    "ShipmentsUpdatedSuccessfully" : "Expéditions mises à jour avec succès"
+    "ShipmentsUpdatedSuccessfully" : "Expéditions mises à jour avec succès",
+    "PackageUpdatedSuccessfully" : "Package mis à jour avec succès"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{

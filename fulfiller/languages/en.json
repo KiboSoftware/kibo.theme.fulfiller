@@ -665,6 +665,10 @@
     },
     "MenuNavigation": {
       "action": "Action"
+    },
+    "MultiPieceShipment": {
+      "title": "Multi Piece Shipment",
+      "multipieceTooltip": "Generate a single master tracking number for all packages in the shipment"
     }
   },
   "SHIPTOHOME": {
@@ -689,6 +693,9 @@
     },
     "CompleteSTH": {
       "trackNo": "Tracking Number",
+      "of": "of",
+      "masterTrackNo": "Master Tracking Number",
+      "packageTrackNo": "Package Tracking Number",
       "emptyTrackingListText": "There are no tracking numbers yet for this shipment",
       "orderComplete": "Shipment Complete",
       "haveYou": "Have you",
@@ -714,6 +721,8 @@
       "shipmentNotes": "Shipment Notes"
     },
     "PrepareShipmentSTH": {
+      "multipieceCheckbox": "Use Multi Piece Shipment",
+      "multipieceCheckboxTooltip": "Generate a single master tracking number for all packages in the shipment",
       "title": "Prepare for Shipment",
       "tabHeader":"Packing Slip",
       "BODY": {
@@ -748,6 +757,7 @@
         "exceedsTrackingNo": "Tracking Number must be 50 characters or less"
       },
       "printShippingbtn": "Print Shipping Label",
+      "saveBtn": "Save",
       "printShippingLabel": "Please add the follow item(s) before printing a shipping label: Shipment does not have a fulfillment address info.",
       "generateShippingLabelInvalid": "Invalid Shipping Label Info",
       "generateShippingLabelFail": "Unable to create shipping label, please try again",
@@ -767,7 +777,8 @@
         "emptyFulfillmentAddress":"Shipment does not have a fulfillment address info.",
         "improperFulfillmentAdress":"Shipment does not have a proper address for fulfillment address info.",
         "emptyOrderNumber": "Shipment does not have an order number.",
-        "emptyShipmentNumber":"Shipment does not have a shipment number."
+        "emptyShipmentNumber": "Shipment does not have a shipment number.",
+        "carrierNotEnabledForShippingRuntime": "Carrier not enabled for shippingruntime"
       }
     },
     "PrintPackSheetSTH": {
@@ -1083,6 +1094,7 @@
         "invalidtrackingNo": "Tracking Number must be alphanumeric"
       },
       "printShippingbtn": "Print Shipping Label",
+      "saveBtn": "Save",
       "manualTrackingNo": "Enter the tracking number manually"
     },
     "PrintPackSheetSTH": {
@@ -2040,7 +2052,8 @@
     "CompletedPrintPickSheetStep": "Successfully completed the Print Pick List Step",
     "UnableToCompletedPrintPickSheetStep": "Unable to complete the Print Pick List Step",
     "ShipmentsManifestSuccessfulPreviously" : "The following shipments in Manifests have been updated successfully with required Manifest data. For shipments that could not get updated successfully, please create new Manifests",
-    "ShipmentsUpdatedSuccessfully" : "Shipments updated successfully"
+    "ShipmentsUpdatedSuccessfully" : "Shipments updated successfully",
+    "PackageUpdatedSuccessfully" : "Package updated successfully"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
