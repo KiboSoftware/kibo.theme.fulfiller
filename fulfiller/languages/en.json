@@ -778,7 +778,8 @@
         "improperFulfillmentAdress":"Shipment does not have a proper address for fulfillment address info.",
         "emptyOrderNumber": "Shipment does not have an order number.",
         "emptyShipmentNumber": "Shipment does not have a shipment number.",
-        "carrierNotEnabledForShippingRuntime": "Carrier not enabled for shippingruntime"
+        "carrierNotEnabledForShippingRuntime": "Carrier not enabled for shippingruntime",
+        "carrierNotEnabledForMultipiece": "Kindly select the Carrier which is enabled for multi-piece shipment"
       }
     },
     "PrintPackSheetSTH": {
