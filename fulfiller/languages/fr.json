@@ -778,7 +778,8 @@
         "improperFulfillmentAdress":"L'envoi n'a pas d'adresse appropriée pour les informations d'adresse de traitement.",
         "emptyOrderNumber": "L'envoi n'a pas de numéro de commande.",
         "emptyShipmentNumber":"L'envoi n'a pas de numéro d'envoi.",
-        "carrierNotEnabledForShippingRuntime": "Transporteur non activé pour l'exécution d'expédition"
+        "carrierNotEnabledForShippingRuntime": "Transporteur non activé pour l'exécution d'expédition",
+        "carrierNotEnabledForMultipiece": "Veuillez sélectionner le transporteur activé pour l'envoi de plusieurs pièces."
       }
     },
     "PrintPackSheetSTH": {
