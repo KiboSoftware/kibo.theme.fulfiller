@@ -347,7 +347,8 @@
         "acceptShipmentNotification": "By selecting this you have verified the customer has received the entire order. Selecting this will notify the customer the order process has been completed and there are no more actions required",
         "afterPickingDeliveryOrder": "After picking the order, place boxed/bagged items in the Delivery area with any pick sheets.",
         "orderDeliveryContinue": "Click continue and follow the instructions to prepare the order for delivery. When the item is delivered to the customer, return to complete the Deliver to Customer step.",
-        "readyForDeliveryInstructions": "Ready for delivery instructions"
+        "readyForDeliveryInstructions": "Ready for delivery instructions",
+        "confirmReturnToPreviousStep": "Returning to the previous step will remove any saved package information or shipping information for the current shipment. Are you sure you want to proceed?"
       },
       "pickWaveDisplayFields" : {
         "department": {
@@ -517,6 +518,7 @@
         "adjustment": "Adjustment",
         "shippingandHandling": "Shipping and Handling",
         "tax": "Tax",
+        "duty" : "Duty",
         "total": "Total"
       },
       "FinishFulfillment": {
@@ -707,6 +709,7 @@
       "reprintShippingLabel": "Reprint Shipping Label",
       "reprintReturnLabel": "Reprint Return Label",
       "removeTrackingNo": "Remove",
+      "confirmReturn": "Confirm Return to",
       "toaster": {
         "errorPackageNotFound": "Tracking number is not found in any packages"
       }
@@ -1246,6 +1249,7 @@
         "updatedSubtotal": "Updated Subtotal",
         "shippingAndHandling": "Shipping and Handling",
         "tax": "Tax",
+        "duty" : "Duty",
         "total": "Total",
         "updatedTotal": "Updated Total",
         "discount": "Discount",
@@ -1729,6 +1733,7 @@
         "UPC": "UPC:",
         "shippingAndHandling": "Shipping and Handling",
         "tax": "Tax",
+        "duty" : "Duty",
         "total": "Total",
         "discount": "Discount",
         "adjustment": "Adjustment",
@@ -1809,6 +1814,7 @@
         "adjustment": "Adjustment",
         "shippingandHandling": "Shipping and Handling",
         "tax": "Tax",
+        "duty" : "Duty",
         "total": "Total"
       },
       "Button": {

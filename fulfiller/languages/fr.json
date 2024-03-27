@@ -347,7 +347,8 @@
         "acceptShipmentNotification": "En sélectionnant cette option, vous avez vérifié que le client a reçu l'intégralité de la commande. Sélectionnez cette option pour informer le client que le processus de commande est terminé et qu'aucune action supplémentaire n'est requise",
         "afterPickingDeliveryOrder": "Après avoir récupéré la commande, placez les articles en boîte/sac dans la zone de livraison avec toutes les feuilles de prélèvement.",
         "orderDeliveryContinue": "Cliquez sur continuer et suivez les instructions pour préparer la commande pour la livraison. Lorsque l'article est livré au client, retournez pour terminer l'étape Livrer au client.",
-        "readyForDeliveryInstructions": "Prêt pour les instructions de livraison"
+        "readyForDeliveryInstructions": "Prêt pour les instructions de livraison",
+        "confirmReturnToPreviousStep": "Le retour à l`étape précédente supprimera toutes les informations enregistrées sur le colis ou les informations d`expédition pour l`envoi en cours. Êtes-vous sur de vouloir continuer?"
       },
       "pickWaveDisplayFields" : {
         "department": {
@@ -517,6 +518,7 @@
         "adjustment": "Ajustement",
         "shippingandHandling": "Frais de port et de manutention",
         "tax": "Impôt",
+        "duty": "Devoir",
         "total": "Totale"
       },
       "FinishFulfillment": {
@@ -707,6 +709,7 @@
       "reprintShippingLabel": "Réimprimer l'étiquette d'expédition",
       "reprintReturnLabel": "Réimprimer l'étiquette de retour",
       "removeTrackingNo": "Retirer",
+      "confirmReturn": "Confirmer Retour à",
       "toaster": {
         "errorPackageNotFound": "Le numéro de suivi ne figure dans aucun des packages"
       }
@@ -1246,6 +1249,7 @@
         "updatedSubtotal": "Sous-total mis à jour",
         "shippingAndHandling": "Frais de port et de manutention",
         "tax": "Impôt",
+        "duty": "Devoir",
         "total": "Totale",
         "updatedTotal": "Total mis à jour",
         "discount": "Remise",
@@ -1729,6 +1733,7 @@
         "UPC": "UPC:",
         "shippingAndHandling": "Frais de port et de manutention",
         "tax": "Impôt",
+        "duty": "Devoir",
         "total": "Totale",
         "discount": "Remise",
         "adjustment": "Ajustement",
@@ -1809,6 +1814,7 @@
         "adjustment": "Ajustement",
         "shippingandHandling": "Frais de port et de manutention",
         "tax": "Impôt",
+        "duty": "Devoir",
         "total": "Totale"
       },
       "Button": {
