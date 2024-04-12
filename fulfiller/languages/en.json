@@ -251,7 +251,8 @@
     "GRID": {
       "EmptyFeildError": {
         "noImage": "Image not available"
-      }
+      },
+      "externalId": "External Id -"
     },
     "GRIDHEADER":{
       "fulfillmentType": "Fulfillment Type",
@@ -765,6 +766,8 @@
       "generateShippingLabelInvalid": "Invalid Shipping Label Info",
       "generateShippingLabelFail": "Unable to create shipping label, please try again",
       "manualTrackingNo": "Enter the tracking number manually",
+      "masterTrackingNo": "Master Tracking Number",
+      "packageTrackingNo": "Package Tracking Number",
       "unitTypes": {
         "cm": "cm",
         "kg": "kg",
