@@ -251,7 +251,8 @@
     "GRID": {
       "EmptyFeildError": {
         "noImage": "Image non disponible"
-      }
+      },
+      "externalId": "Identifiant externe -"
     },
     "GRIDHEADER":{
       "fulfillmentType": "L'Accomplissement De Type",
@@ -765,6 +766,8 @@
       "generateShippingLabelInvalid": "Informations d'étiquette d'expédition non valides",
       "generateShippingLabelFail": "Impossible de créer une étiquette d'expédition, veuillez réessayer",
       "manualTrackingNo": "Entrez le numéro de suivi manuellement",
+      "masterTrackingNo": "Numéro de suivi principal",
+      "packageTrackingNo": "Numéro de suivi du colis",
       "unitTypes": {
         "cm": "cm",
         "kg": "kg",
