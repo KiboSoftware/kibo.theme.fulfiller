@@ -387,7 +387,8 @@
       "ShippingManifests": {
         "EligibleShipments": {
           "defaultSelectedNumberOfDays": 1,
-          "maxNumberOfDays": 7
+          "maxNumberOfDays": 7,
+          "isCarrierSelectionEnabled": 0
         }
       }
     },
@@ -1655,7 +1656,7 @@
         "getEligibleShipments": "Get Eligible Shipments",
         "Dialog": {
             "title":"Create Manifest",
-            "message":"Are you sure you want to create a manifest? Your Canada Post account will be charged.",
+            "message":"Are you sure you want to create a manifest? Your account will be charged.",
             "confirmButton": "Ok"
         }
       },

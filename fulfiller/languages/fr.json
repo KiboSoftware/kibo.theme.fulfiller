@@ -387,7 +387,8 @@
       "ShippingManifests": {
         "EligibleShipments": {
           "defaultSelectedNumberOfDays": 1,
-          "maxNumberOfDays": 7
+          "maxNumberOfDays": 7,
+          "isCarrierSelectionEnabled": 0
         }
       }
     },
@@ -1655,7 +1656,7 @@
       "getEligibleShipments": "Obtenez des envois éligibles",
       "Dialog": {
         "title": "Créer un manifeste",
-        "message": "Voulez-vous vraiment créer un manifeste? Votre compte Postes Canada sera débité.",
+        "message": "Êtes-vous sûr de vouloir créer un manifeste? Votre compte sera débité.",
         "confirmButton": "D'accord"
       }
     },
