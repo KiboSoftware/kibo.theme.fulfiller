@@ -1,15 +1,15 @@
 :root {
-  --default-theme-color: rgb(51, 0, 101);
+  --default-theme-color: #191919;
   --default-text-color: #ffffff;
   /*For all grid headers in the application*/
   --grid-head-color: #f7f7f7;
   --grid-head-text-color: #333;
   /*Header*/
-  --top-bar-background-color: #306;
+  --top-bar-background-color: #191919;
   --top-bar-text-color: #fff;
   --hamburger-background-color: red;
   --hamburger-text-color: #fff;
-  --searchbar-background-color: #260845;
+  --searchbar-background-color: #2B2B2B;
   --searchbar-text-color: #fff;
   --searchbar-placeholder-text-color: #bda8c5;
   --search-icon-color: #bda8c5;
@@ -17,14 +17,14 @@
   --sidebar-background-color: white;
   --sidebar-text-color: #000;
   --sidebar-hover-text-color: #212529;
-  --color-one: #306;
-  --color-two: #56ba77;
-  --color-three: #85cfd7;
-  --color-four: #f9a44f;
-  --color-one-light: #e9e1f9;
-  --color-two-light: #d6f7e1;
-  --color-three-light: #d4ecef;
-  --color-four-light: #fde9d4;
+  --color-one: #2b2b2b;
+  --color-two: #2b2b2b;
+  --color-three: #2b2b2b;
+  --color-four: #2b2b2b;
+  --color-one-light: #e5e6e7;
+  --color-two-light: #e5e6e7;
+  --color-three-light: #e5e6e7;
+  --color-four-light: #e5e6e7;
   /*Dashboard Tabs*/
   --dashboard-active-tab-background-color: #2ea195;
   --dashboard-active-tab-text-color: #ffffff;

@@ -390,7 +390,28 @@
           "maxNumberOfDays": 7,
           "isCarrierSelectionEnabled": 0
         }
-      }
+      },      
+      "shippingLabelOrientationsForCarrier": [
+        { 
+          "carrier": "UPS",
+          "orientation": "Default"
+        },
+        { 
+          "carrier": "FedEx",
+          "orientation": "Default"
+        },
+        {
+          "carrier": "Purolator",
+          "orientation": "Default",
+          "style": "page-break-after: always;text-align: center;",
+          "width": "80%",
+          "height": "50%"
+        },
+        {
+          "carrier": "Custom",
+          "orientation": "Default"
+        }
+      ]
     },
     "ToasterSummary": {
       "errorMessage": "Message d'erreur",
