@@ -334,6 +334,10 @@
         "defaultShipmentQuantity": 1,
         "locationInventoryQuantity": 0
       },
+      "CustomData": {
+        "email_deliver_to_country": "Pays de livraison par e-mail",
+        "ds.dsDescription": "Informations sur le service de livraison"
+      },
       "displayOrderRefNumber": 0,
       "CustomMessages": {
         "readyForPickupInstructions": "Prêt pour le ramassage des instructions",
@@ -390,13 +394,13 @@
           "maxNumberOfDays": 7,
           "isCarrierSelectionEnabled": 0
         }
-      },      
+      },
       "shippingLabelOrientationsForCarrier": [
-        { 
+        {
           "carrier": "UPS",
           "orientation": "Default"
         },
-        { 
+        {
           "carrier": "FedEx",
           "orientation": "Default"
         },
@@ -631,6 +635,11 @@
       "user": "L'utilisateur",
       "role": "Rôle",
       "note": "Note"
+    },
+    "CusotmData" :{
+      "title": "Données personnalisées",
+      "keyFieldHeader" : "Données",
+      "valueFieldHeader" : "Valeur"
     },
     "ViewWorkflow": {
       "viewWorkflowButton": "Affichage De Flux De Travail",

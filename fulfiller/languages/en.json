@@ -334,6 +334,10 @@
         "defaultShipmentQuantity": 1,
         "locationInventoryQuantity": 0
       },
+      "CustomData" :{
+        "email_deliver_to_country":"Email Deliver To Country",
+        "ds.dsDescription": "Delivery Service Information"
+      },
       "displayOrderRefNumber" : 0,
       "CustomMessages": {
         "readyForPickupInstructions": "Ready for pickup instructions",
@@ -392,11 +396,11 @@
         }
       },
       "shippingLabelOrientationsForCarrier": [
-        { 
+        {
           "carrier": "UPS",
           "orientation": "Default"
         },
-        { 
+        {
           "carrier": "FedEx",
           "orientation": "Default"
         },
@@ -631,6 +635,11 @@
       "user": "User",
       "role": "Role",
       "note": "Note"
+    },
+    "CustomData" :{
+      "title": "Custom Data",
+      "keyFieldHeader" : "Data",
+      "valueFieldHeader" : "Value"
     },
     "ViewWorkflow": {
       "viewWorkflowButton": "View Workflow",
