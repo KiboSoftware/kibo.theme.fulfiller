@@ -316,7 +316,9 @@
         "fedexcrossborder": "FedEx Cross Border",
         "custom_BoxKnight": "BoxKnight",
         "custom_Aramex": "Aramex",
-        "CUSTOM_DEV_ARAMEX": "Aramex"
+        "CUSTOM_DEV_ARAMEX": "Aramex",
+        "fedexsmartpost": "FedEx SmartPost",
+        "upssurepost": "UPS SurePost"
       }
     },
     "TENANTSETTINGS": {
@@ -415,7 +417,8 @@
           "carrier": "Custom",
           "orientation": "Default"
         }
-      ]
+      ],
+      "searchShipmentSortBy": "oldest"
     },
     "ToasterSummary": {
       "errorMessage": "Error Message",
@@ -1539,7 +1542,7 @@
       "userNameMinLength": "Username must be 3 or more characters",
       "userNameMaxLength": "Username cannot be longer than 50 characters",
       "userNameAllowChars": "Username can only contain letters, numbers, and \". @ _ -\"",
-      "passwordMinLength": "Password must be a minimum of 6 characters with at least 1 number and 1 alphabetic character",
+      "passwordMinLength": "The password must be at least 8 characters long, contain an uppercase and lowercase letter, a number, and a special character.",
       "passwordBlank": "Password cannot be blank",
       "firstNameBlank": "First Name cannot be blank",
       "firstNameMaxLength": "First Name cannot be longer than 50 characters",
