@@ -46,6 +46,10 @@
       "ShipmentHeaderEtagError": {
         "message": "The shipment has already been modified; please review changes and try again.",
         "messageTitle": "Error"
+      },
+      "NoLocationSelectedError": {
+        "message": "Please select a location to proceed.",
+        "messageTitle": "Warning"
       }
     }
   },
@@ -90,6 +94,8 @@
         "home": "Home",
         "backToPOS": "Back to POS",
         "fulfillerDashboard": "Fulfiller Dashboard",
+        "locations": "Locations",
+        "shipments": "Shipments",
         "shipmentsInProcess": "Shipments in Process",
         "pickandPack": "Pick & Pack",
         "shippingManifests": "Shipping Manifests",
@@ -197,7 +203,8 @@
           "substituteByDiscount": "Discount",
           "substituteByItemAdjustment": "Item Adjustment",
           "substituteBySubtotal": "Subtotal"
-        }
+        },
+        "autoSubstituteFor": "Autosubstitute For"
       },
       "buttons": {
         "confirm": "Confirm",
@@ -322,6 +329,7 @@
       }
     },
     "TENANTSETTINGS": {
+      "isModernFFUI": 0,
       "printLabelMessage": "Generating Labels for printing...",
       "printLabelAsPDF": 0,
       "displayOrderNumber": 1,
@@ -380,7 +388,9 @@
         "color": "Color",
         "partNo": "Part Number",
         "SKU": "SKU",
-        "UPC": "UPC"
+        "UPC": "UPC",
+        "serialNumber": "Serial Number",
+        "condition": "Condition"
       },
       "defaultDashboardTab": "Late",
       "displayReturnsSection": 1,
@@ -418,7 +428,83 @@
           "orientation": "Default"
         }
       ],
-      "searchShipmentSortBy": "oldest"
+      "searchShipmentSortBy": "oldest",
+      "ShipmentListColumns": [
+        {
+          "name": "fulfillmentLocation",
+          "displayName": "Location",
+          "isVisible": true
+        },
+        {
+          "name": "shipmentType",
+          "displayName": "Shipment Type",
+          "isVisible": true,
+          "sort": true
+        },
+        {
+          "name": "shipmentNumber",
+          "displayName": "Shipment Number",
+          "isVisible": true,
+          "sort": true
+        },
+        {
+          "name": "orderedAt",
+          "displayName": "Shipment Date",
+          "isVisible": true,
+          "sort": true
+        },
+        {
+          "name": "orderNumber",
+          "displayName": "Order Number",
+          "isVisible": true,
+          "sort": true
+        },
+        {
+          "name": "minutesSinceOrdered",
+          "displayName": "Time on Shipment",
+          "isVisible": true
+        },
+        {
+          "name": "fulfillmentStep",
+          "displayName": "Step",
+          "isVisible": true
+        },
+        {
+          "name": "fulfillmentStepTimeDuration",
+          "displayName": "Time on Step",
+          "isVisible": true
+        }
+      ],
+      "shipmentCountPerPage": 50,
+      "defaultLocationPageSize": 100,
+      "initialMapLatitude": 37.0902,
+      "initialMapLongitude": -95.7129,
+      "DashboardPeriodFilters" : [
+        {
+          "displayName": "Last 24 Hours",
+          "duration": 24,
+          "unit": "HOURS",
+          "isVisible": true
+        },
+        {
+          "displayName": "Last Week",
+          "duration": 1,
+          "unit": "WEEKS",
+          "isVisible": true
+        },
+        {
+          "displayName": "Last Month",
+          "duration": 1,
+          "unit": "MONTHS",
+          "isVisible": true
+        },
+        {
+          "displayName": "Last Year",
+          "duration": 1,
+          "unit": "YEARS",
+          "isVisible": true
+        }
+      ]
     },
     "ToasterSummary": {
       "errorMessage": "Error Message",
@@ -445,9 +531,36 @@
         "cancel": "Cancel",
         "submit": "Submit"
       }
+    },
+    "AdditionalFields":{
+      "dialogHeader": "Additional Fields For Inventory Allocation",
+      "TableHeaders":{
+        "allocatedTo": "Allocated To",
+        "quantity": "Quantity",
+        "lotCode": "Lot Code",
+        "date": "Date",
+        "sku": "SKU"
+      }
     }
   },
   "DASHBOARD": {
+    "Filters": {
+      "header": "Filters",
+      "allLocationsSelected": "All {0} Locations Selected",
+      "numberOfLocationsSelected": "{0} Locations Selected",
+      "locationPlaceHolder": "Select Locations",
+      "periodPlaceholder": "Select Period",
+      "shipmentTypePlaceholder": "Select Shipment Type",
+      "shipmentStepPlaceholder": "Select Shipment Step",
+      "slaPlaceholder": "Select SLA",
+      "thresholdPlaceholder": "Select Threshold",
+      "shipments": "Shipments",
+      "startStep": "Start Step: {{step}}",
+      "endStep": "End Step: {{step}}"
+    },
+    "ShipmentListGrid": {
+      "paginationReport": "Showing {{first}}-{{last}} of {{total}} entries"
+    },
     "GridTabs": {
       "lateShipments": "Late Shipments",
       "expressShipments": "Express Shipments",
@@ -706,6 +819,58 @@
     "MultiPieceShipment": {
       "title": "Multi Piece Shipment",
       "multipieceTooltip": "Generate a single master tracking number for all packages in the shipment"
+    }
+  },
+  "CONSOLIDATION" :{
+    "consolidationAvailableLink": "Package Consolidations Available",
+    "ConsolidationSuggestionsDialog": {
+      "title": "Consolidation Suggestions",
+      "header": "Shipments Available for Consolidation",
+      "ProductDetailsGrid": {
+        "shipmentNumber": "Shipment Number",
+        "image": "Image",
+        "product": "Product",
+        "quantity": "Quantity",
+        "pricePaid": "Unit Price"
+      },
+      "getConsolidationSuggestionsFailedMessage": "An error occured while Getting shipments for consolidation, please try again",
+      "max10ShipmentSelectionMessage" : "Only up to 10 shipments can be selected for package consolidation",
+      "consolidationShipmentsNotSelectedMessage": "Please select at least one shipment to consolidate",
+      "consolidateShipmentFailedMessage": "An error occured while consolidating the shipments, please try again",
+      "loadMore": "Load More",
+      "cancelButton": "Cancel",
+      "submitButton": "Consolidate"
+    },
+    "ConsolidationShipmentsView": {
+      "shipmentNotFoundForConsolidationId": "Shipment is marked for consolidation, but shipments are not found with associated consolidation id, please try again",
+      "getConsolidatedShipmentsFailMessage": "Shipment is marked for consolidation, but an error occued while Getting consolidated Shipments, please try again"
+    },
+    "releaseShipmentButton": "Release Shipment",
+    "ConsolidationReleaseShipmentDialog" :{
+      "title": "Release Shipment",
+      "header": "Release Shipment From Consolidation",
+      "releaseShipmentMessage":"Are you sure you want to release the shipment from package consolidation?",
+      "releaseShipmentFailedMessage": "An error occured while releasing the shipment, please try again later",
+      "cancelButton": "Cancel",
+      "submitButton": "Release"
+    },
+    "ConsolidationShipmentPackageView": {
+      "shipment": "Shipment",
+      "packingSlip": "Packing Slip",
+      "consolidatePackagesAcrossShipments": "Consolidate Packages across Shipments",
+      "shipmentsNotAtPrepareForShipmentStep" : "All the shipments should be at Prepare for Shipment step to consolidate the packages",
+      "selectShipment": "Select Shipment",
+      "selectPackingSlip": "Select Packing Slip",
+      "cancelConsolidationButton": "Cancel Consolidation",
+      "confirmConsolidationButton": "Confirm"
+    },
+    "RemoveConsolidationConfirmation" :{
+      "title": "Remove All Package Consolidations",
+      "header": "Remove All Package Consolidations",
+      "message": "Any Package Consolidation on any of the shipments tab will be removed. Do you want to continue?",
+      "cancelButton": "Cancel",
+      "submitButton": "Yes",
+      "removeAllConsolidationFailedMessage" :"An error occured while removing consolidation, please try again later"
     }
   },
   "SHIPTOHOME": {
@@ -2097,7 +2262,9 @@
     "UnableToCompletedPrintPickSheetStep": "Unable to complete the Print Pick List Step",
     "ShipmentsManifestSuccessfulPreviously" : "The following shipments in Manifests have been updated successfully with required Manifest data. For shipments that could not get updated successfully, please create new Manifests",
     "ShipmentsUpdatedSuccessfully" : "Shipments updated successfully",
-    "PackageUpdatedSuccessfully" : "Package updated successfully"
+    "PackageUpdatedSuccessfully" : "Package updated successfully",
+    "googleMapLoadFail": "Google Map Load Failed",
+    "googleMapsApiKeyMissing": "Google Maps API Key is missing"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
