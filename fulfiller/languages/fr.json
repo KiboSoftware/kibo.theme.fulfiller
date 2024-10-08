@@ -46,6 +46,10 @@
       "ShipmentHeaderEtagError": {
         "message": "L'envoi a déjà été modifié ; veuillez revoir les modifications et réessayer.",
         "messageTitle": "Erreur"
+      },
+      "NoLocationSelectedError": {
+        "message": "Veuillez sélectionner un emplacement pour continuer.",
+        "messageTitle": "Avertissement"
       }
     }
   },
@@ -90,6 +94,8 @@
         "home": "Accueil",
         "backToPOS": "Retour à POS",
         "fulfillerDashboard": "Tableau de bord Partenaire",
+        "locations": "Standorte",
+        "shipments": "Lieferungen",
         "shipmentsInProcess": "Expéditions en cours",
         "pickandPack": "Pick & Pack",
         "shippingManifests": "Manifeste d'expéditions",
@@ -197,7 +203,8 @@
           "substituteByDiscount": "Remise",
           "substituteByItemAdjustment": "Article Ajustement",
           "substituteBySubtotal": "Total"
-        }
+        },
+        "autoSubstituteFor": "Autosubstitut pour"
       },
       "buttons": {
         "confirm": "Confirmer",
@@ -322,6 +329,7 @@
       }
     },
     "TENANTSETTINGS": {
+      "isModernFFUI": 0,
       "printLabelMessage": "Génération d'étiquettes pour l'impression ...",
       "printLabelAsPDF": 0,
       "displayOrderNumber": 1,
@@ -380,7 +388,9 @@
         "color": "Couleur",
         "partNo": "Numéro d'article",
         "SKU": "SKU",
-        "UPC": "UPC"
+        "UPC": "UPC",
+        "serialNumber": "Numéro de série",
+        "condition": "Condition"
       },
       "defaultDashboardTab": "Late",
       "displayReturnsSection": 1,
@@ -418,7 +428,87 @@
           "orientation": "Default"
         }
       ],
-      "searchShipmentSortBy": "oldest"
+      "searchShipmentSortBy": "oldest",
+      "ShipmentListColumns":[
+          {
+              "name": "fulfillmentLocation",
+              "displayName": "Emplacement",
+              "isVisible": true
+          },
+          {
+              "name": "fulfillmentType",
+              "displayName": "Type d'envoi",
+              "isVisible": true,
+              "sort": true
+          },
+          {
+              "name": "shipmentNumber",
+              "displayName": "Numéro d'expédition",
+              "isVisible": true,
+              "sort": true
+          },
+          {
+              "name": "orderedAt",
+              "displayName": "Date d'expédition",
+              "isVisible": true,
+              "sort": true
+          },
+          {
+              "name": "orderNumber",
+              "displayName": "Numéro de commande",
+              "isVisible": true,
+              "sort": true
+          },
+          {
+              "name": "minutesSinceOrdered",
+              "displayName": "Délai d'expédition",
+              "isVisible": true
+          },
+          {
+              "name": "fulfillmentStep",
+              "displayName": "Étape",
+              "isVisible": true
+          },
+          {
+              "name": "fulfillmentStepTimeDuration",
+              "displayName": "Temps sur l'étape",
+              "isVisible": true
+          }
+      ],
+      "shipmentCountPerPage": 50,
+      "defaultLocationPageSize": 100,
+      "DashboardPeriodFilters" : [
+        {
+          "displayName": "Dernières 24 heures",
+          "duration": 24,
+          "unit": "HOURS",
+          "isVisible": true
+        },
+        {
+          "displayName": "3 derniers jours",
+          "duration": 3,
+          "unit": "DAYS",
+          "isVisible": false
+        },
+        {
+          "displayName": "La semaine dernière",
+          "duration": 1,
+          "unit": "WEEKS",
+          "isVisible": true
+        },
+        {
+          "displayName": "Mois dernier",
+          "duration": 1,
+          "unit": "MONTHS",
+          "isVisible": true
+        },
+        {
+          "displayName": "L'année dernière",
+          "duration": 1,
+          "unit": "YEARS",
+          "isVisible": true
+        }
+      ]
     },
     "ToasterSummary": {
       "errorMessage": "Message d'erreur",
@@ -445,9 +535,36 @@
         "cancel": "Annuler",
         "submit": "Soumettre"
       }
+    },
+    "AdditionalFields":{
+      "dialogHeader": "Champs supplémentaires pour l'allocation de stock",
+      "TableHeaders":{
+        "allocatedTo": "Attribué à",
+        "quantity": "Quantité",
+        "lotCode": "Code de lot",
+        "date": "Date",
+        "sku": "UGS"
+      }
     }
   },
   "DASHBOARD": {
+    "Filters": {
+      "header": "Filtre",
+      "allLocationsSelected": "Les {0} emplacements sélectionnés",
+      "numberOfLocationsSelected": "{0} emplacements sélectionnés",
+      "locationPlaceHolder": "Sélectionner les emplacements",
+      "periodPlaceholder": "Sélectionnez la période",
+      "shipmentTypePlaceholder": "Sélectionnez le type d'expédition",
+      "shipmentStepPlaceholder": "Sélectionnez l'étape d'expédition",
+      "slaPlaceholder": "Sélectionnez SLA",
+      "thresholdPlaceholder": "Sélectionner le seuil",
+      "shipemnts": "Expéditions",
+      "startStep": "Étape de démarrage: {{step}}",
+      "endStep": "Fin de l'étape: {{step}}"
+    },
+    "ShipmentListGrid": {
+      "paginationReport": "Affichage de {{first}}-{{last}} sur {{total}} entrées"
+    },
     "GridTabs": {
       "lateShipments": "Envois en retard",
       "expressShipments": "Envois express",
@@ -706,6 +823,59 @@
     "MultiPieceShipment": {
       "title": "Multi Piece Shipment",
       "multipieceTooltip": "Generate a single master tracking number for all packages in the shipment"
+    }
+  },
+  "CONSOLIDATION" :{
+    "consolidationAvailableLink": "Consolidations de colis disponibles",
+    "ConsolidationSuggestionsDialog": {
+      "title": "Suggestions de consolidation",
+      "header": "Expéditions disponibles pour la consolidation",
+      "ProductDetailsGrid": {
+        "shipmentNumber": "Numéro d'expédition",
+        "image": "Image",
+        "product": "Produit",
+        "quantity": "Quantité",
+        "pricePaid": "Prix ​​unitaire",
+        "workflowState": "État du flux de travail"
+      },
+      "getConsolidationSuggestionsFailedMessage": "Une erreur s'est produite lors de la réception des envois à consolider. Veuillez réessayer.",
+      "max10ShipmentSelectionMessage" : "Seulement jusqu'à 10 expéditions peuvent être sélectionnées pour la consolidation des colis",
+      "consolidationShipmentsNotSelectedMessage": "Veuillez sélectionner au moins une expédition à consolider",
+      "consolidateShipmentFailedMessage": "Une erreur s'est produite lors de la consolidation des expéditions, veuillez réessayer",
+      "loadMore": "Charger plus",
+      "cancelButton": "Annuler",
+      "submitButton": "Consolider"
+    },
+    "ConsolidationShipmentsView": {
+      "shipmentNotFoundForConsolidationId": "L'envoi est marqué pour consolidation, mais les expéditions ne sont pas trouvées avec l'identifiant de consolidation associé, contactez l'équipe d'assistance client.",
+      "getConsolidatedShipmentsFailMessage": "L'envoi est marqué pour consolidation, mais une erreur s'est produite lors de la récupération des envois consolidés, veuillez réessayer"
+    },
+    "releaseShipmentButton": "Libérer l'envoi",
+    "ConsolidationReleaseShipmentDialog" :{
+      "title": "Libérer l'envoi",
+      "header": "Libérer l'envoi de la consolidation",
+      "releaseShipmentMessage":"Êtes-vous sûr de vouloir libérer l'envoi de la consolidation de colis ?",
+      "releaseShipmentFailedMessage": "Une erreur s'est produite lors de la libération de l'envoi, veuillez réessayer plus tard",
+      "cancelButton": "Annuler",
+      "submitButton": "Libérer"
+    },
+    "ConsolidationShipmentPackageView": {
+      "shipment": "L'envoi",
+      "packingSlip": "Le bordereau d'emballage",
+      "consolidatePackagesAcrossShipments": "Consolider les colis à travers les envois",
+      "shipmentsNotAtPrepareForShipmentStep": "Tous les envois doivent être à l'étape Préparer pour l'expédition pour consolider les colis",
+      "selectShipment": "Sélectionner l'envoi",
+      "selectPackingSlip": "Sélectionner le bordereau d'emballage",
+      "cancelConsolidationButton": "Annuler la consolidation",
+      "confirmConsolidationButton": "Confirmer"
+    },
+    "RemoveConsolidationConfirmation" :{
+      "title": "Supprimer toutes les consolidations de colis",
+      "header": "Supprimer toutes les consolidations de colis",
+      "message": "Toute consolidation de colis sur l'un des onglets des expéditions sera supprimée. Voulez-vous continuer ?",
+      "cancelButton": "Annuler",
+      "submitButton": "Oui",
+      "removeAllConsolidationFailedMessage" :"Une erreur s'est produite lors de la suppression de la consolidation, veuillez réessayer plus tard"
     }
   },
   "SHIPTOHOME": {
@@ -2097,7 +2267,9 @@
     "UnableToCompletedPrintPickSheetStep": "Impossible de terminer l'étape d'impression de la liste de sélection",
     "ShipmentsManifestSuccessfulPreviously" : "Les expéditions suivantes dans les manifestes ont été mises à jour avec succès avec les données requises du manifeste. Pour les expéditions qui n'ont pas pu être mises à jour, veuillez créer de nouveaux manifestes.",
     "ShipmentsUpdatedSuccessfully" : "Expéditions mises à jour avec succès",
-    "PackageUpdatedSuccessfully" : "Package mis à jour avec succès"
+    "PackageUpdatedSuccessfully" : "Package mis à jour avec succès",
+    "googleMapLoadFail": "Échec du chargement de la carte Google",
+    "googleMapsApiKeyMissing": "La clé API Google Maps est manquante"
   },
   "DYNAMICCONTENTS":{
     "ShipmentTypes":{
