@@ -330,6 +330,7 @@
     },
     "TENANTSETTINGS": {
       "isModernFFUI": 0,
+      "isLateShipment": 0,
       "printLabelMessage": "Génération d'étiquettes pour l'impression ...",
       "printLabelAsPDF": 0,
       "displayOrderNumber": 1,
@@ -560,7 +561,9 @@
       "thresholdPlaceholder": "Sélectionner le seuil",
       "shipemnts": "Expéditions",
       "startStep": "Étape de démarrage: {{step}}",
-      "endStep": "Fin de l'étape: {{step}}"
+      "endStep": "Fin de l'étape: {{step}}",
+      "expressShipment": "Expédition express",
+      "late Shipment":  "Expédition tardive"
     },
     "ShipmentListGrid": {
       "paginationReport": "Affichage de {{first}}-{{last}} sur {{total}} entrées"

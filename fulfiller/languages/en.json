@@ -330,6 +330,7 @@
     },
     "TENANTSETTINGS": {
       "isModernFFUI": 0,
+      "isLateShipment": 0,
       "printLabelMessage": "Generating Labels for printing...",
       "printLabelAsPDF": 0,
       "displayOrderNumber": 1,
@@ -556,7 +557,9 @@
       "thresholdPlaceholder": "Select Threshold",
       "shipments": "Shipments",
       "startStep": "Start Step: {{step}}",
-      "endStep": "End Step: {{step}}"
+      "endStep": "End Step: {{step}}",
+      "expressShipment": "Express Shipment",
+      "lateShipment": "Late Shipment"
     },
     "ShipmentListGrid": {
       "paginationReport": "Showing {{first}}-{{last}} of {{total}} entries"
